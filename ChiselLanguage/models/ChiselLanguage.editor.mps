@@ -9,6 +9,7 @@
     <import index="qmf0" ref="r:4e4219f3-ce2b-4ec1-976b-9d95c787f25b(ChiselLanguage.structure)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -130,10 +131,6 @@
     <ref role="1XX52x" to="qmf0:3iGtkSVLSVx" resolve="Party" />
     <node concept="3EZMnI" id="3iGtkSVPLNe" role="2wV5jI">
       <node concept="l2Vlx" id="3iGtkSVPLNf" role="2iSdaV" />
-      <node concept="3F0ifn" id="3iGtkSVPWnx" role="3EZMnx">
-        <property role="3F0ifm" value="input: " />
-        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
-      </node>
       <node concept="3F1sOY" id="3iGtkSVRfSe" role="3EZMnx">
         <ref role="1NtTu8" to="qmf0:3iGtkSVM1iH" resolve="input" />
       </node>
@@ -149,6 +146,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3iGtkSVMvBu">
+    <property role="3GE5qa" value="Input" />
     <ref role="1XX52x" to="qmf0:3iGtkSVLSVL" resolve="Input" />
     <node concept="3EZMnI" id="3iGtkSVMvBE" role="2wV5jI">
       <node concept="3F0ifn" id="3iGtkSVMLaB" role="3EZMnx">
@@ -167,7 +165,7 @@
   </node>
   <node concept="24kQdi" id="3iGtkSVMAmv">
     <property role="3GE5qa" value="Expression" />
-    <ref role="1XX52x" to="qmf0:3iGtkSVM$7f" resolve="Integer" />
+    <ref role="1XX52x" to="qmf0:3iGtkSVM$7f" resolve="MyInteger" />
     <node concept="3EZMnI" id="3iGtkSVMAmx" role="2wV5jI">
       <node concept="3F0A7n" id="3iGtkSVMAmC" role="3EZMnx">
         <ref role="1NtTu8" to="qmf0:3iGtkSVM$7g" resolve="value" />
@@ -176,7 +174,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="3iGtkSVMQDf">
-    <ref role="1XX52x" to="qmf0:3iGtkSVM1iM" resolve="Computation" />
+    <property role="3GE5qa" value="Computation" />
+    <ref role="1XX52x" to="qmf0:3iGtkSVM1iM" resolve="ArithComputation" />
     <node concept="3EZMnI" id="3iGtkSVMQDh" role="2wV5jI">
       <node concept="l2Vlx" id="3iGtkSVMQDk" role="2iSdaV" />
       <node concept="3F1sOY" id="3iGtkSVR1c0" role="3EZMnx">
@@ -190,7 +189,7 @@
       </node>
       <node concept="3F2HdR" id="3iGtkSVPc_8" role="3EZMnx">
         <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="qmf0:3iGtkSVPc1Z" resolve="parties" />
+        <ref role="1NtTu8" to="qmf0:7Vd20Sh50tJ" resolve="parties" />
         <node concept="2iRfu4" id="3iGtkSVPc_b" role="2czzBx" />
         <node concept="VPM3Z" id="3iGtkSVPc_c" role="3F10Kt" />
       </node>
@@ -271,6 +270,74 @@
         <property role="3F0ifm" value="}" />
       </node>
       <node concept="l2Vlx" id="3iGtkSVOYcU" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7Vd20Sh9EKu">
+    <property role="3GE5qa" value="Computation" />
+    <ref role="1XX52x" to="qmf0:7Vd20Sh50tG" resolve="Computation" />
+    <node concept="3EZMnI" id="7Vd20Sh9EKw" role="2wV5jI">
+      <node concept="3F0ifn" id="7Vd20Sh9SHB" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F0ifn" id="7Vd20Sh9EKB" role="3EZMnx">
+        <property role="3F0ifm" value="done by: " />
+        <node concept="pVoyu" id="7Vd20Sh9SIn" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="7Vd20Sh9EKP" role="3EZMnx">
+        <ref role="1NtTu8" to="qmf0:7Vd20Sh50tJ" resolve="parties" />
+        <node concept="2iRfu4" id="7Vd20Sh9EKS" role="2czzBx" />
+        <node concept="VPM3Z" id="7Vd20Sh9EKT" role="3F10Kt" />
+      </node>
+      <node concept="3F1sOY" id="7Vd20Sh9ELE" role="3EZMnx">
+        <ref role="1NtTu8" to="qmf0:7Vd20Sh6ckF" resolve="statements" />
+        <node concept="pVoyu" id="7Vd20Sh9ELX" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7Vd20Sh9SHT" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <node concept="pVoyu" id="7Vd20Sh9SIl" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7Vd20Sh9EKz" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7Vd20ShaPBv">
+    <property role="3GE5qa" value="Input" />
+    <ref role="1XX52x" to="qmf0:7Vd20ShaPBk" resolve="InputDeclaration" />
+    <node concept="3EZMnI" id="7Vd20ShaPBx" role="2wV5jI">
+      <node concept="3F1sOY" id="7Vd20ShaPBC" role="3EZMnx">
+        <ref role="1NtTu8" to="tpee:4VkOLwjf83e" resolve="type" />
+      </node>
+      <node concept="l2Vlx" id="7Vd20ShaPB$" role="2iSdaV" />
+      <node concept="3F0A7n" id="7Vd20ShaPBI" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="7Vd20ShaPBV" role="3EZMnx">
+        <property role="3F0ifm" value="=" />
+      </node>
+      <node concept="3F1sOY" id="7Vd20ShaPC5" role="3EZMnx">
+        <ref role="1NtTu8" to="tpee:fz3vP1I" resolve="initializer" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7Vd20Shb_PZ">
+    <property role="3GE5qa" value="Input" />
+    <ref role="1XX52x" to="qmf0:7Vd20ShbnlU" resolve="InputRef" />
+    <node concept="3EZMnI" id="7Vd20ShbP7S" role="2wV5jI">
+      <node concept="1iCGBv" id="7Vd20ShbP7Z" role="3EZMnx">
+        <ref role="1NtTu8" to="qmf0:7Vd20ShbnlX" resolve="ref" />
+        <node concept="1sVBvm" id="7Vd20ShbP81" role="1sWHZn">
+          <node concept="3F0A7n" id="7Vd20ShbP88" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7Vd20ShbP7V" role="2iSdaV" />
     </node>
   </node>
 </model>
