@@ -6,16 +6,22 @@
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956807" name="final" index="R5$K2" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
+      </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
@@ -150,6 +156,11 @@
     <node concept="PrWs8" id="74tJDeb1q8b" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="1TJgyi" id="6VuGeviuKh1" role="1TKVEl">
+      <property role="IQ2nx" value="7989017298717049921" />
+      <property role="TrG5h" value="isEncryptedComp" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7Vd20Sh96Xe">
     <property role="EcuMT" value="9136968075514769230" />
@@ -169,7 +180,7 @@
     </node>
     <node concept="1TJgyi" id="74tJDeaY6Bf" role="1TKVEl">
       <property role="IQ2nx" value="8150880441511471567" />
-      <property role="TrG5h" value="isEncrypted" />
+      <property role="TrG5h" value="isEncryptedInput" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
@@ -193,14 +204,6 @@
     <property role="TrG5h" value="MyStatementList" />
     <ref role="1TJDcQ" to="tpee:fzclF80" resolve="StatementList" />
   </node>
-  <node concept="1TIwiD" id="6VuGevigvz1">
-    <property role="EcuMT" value="7989017298713311425" />
-    <property role="TrG5h" value="Test" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="PrWs8" id="6VuGevigBqH" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="6VuGevij0B3">
     <property role="TrG5h" value="StubMyStatementList" />
     <property role="34LRSv" value="stub my statement list" />
@@ -211,6 +214,93 @@
     </node>
     <node concept="PrWs8" id="6VuGevij0B5" role="PzmwI">
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1UijAvvb8In">
+    <property role="TrG5h" value="DataFile" />
+    <property role="R4oN_" value="A data file" />
+    <property role="3GE5qa" value="Files" />
+    <property role="EcuMT" value="2202909375770430359" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1UijAvvb9DO" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="entries" />
+      <property role="20lbJX" value="1..n" />
+      <property role="IQ2ns" value="2202909375770434164" />
+      <ref role="20lvS9" node="1UijAvvb9DJ" resolve="Entry" />
+    </node>
+    <node concept="1TJgyi" id="1UijAvvb9DM" role="1TKVEl">
+      <property role="TrG5h" value="path" />
+      <property role="IQ2nx" value="2202909375770434162" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="5Kw8UUF8FIY" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1UijAvvb9DJ">
+    <property role="TrG5h" value="Entry" />
+    <property role="3GE5qa" value="Files" />
+    <property role="EcuMT" value="2202909375770434159" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2SKvIxg3Hc6" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="category" />
+      <property role="IQ2ns" value="3328299660867457798" />
+      <ref role="20lvS9" node="14h1S4rU0Zd" resolve="EntryCategoryType" />
+    </node>
+    <node concept="PrWs8" id="1UijAvvb9DK" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="2SKvIxg2HCX" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="3328299660867197501" />
+      <ref role="20lvS9" node="14h1S4rSwS0" resolve="EntryType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7IwRhMfO2Lk">
+    <property role="3GE5qa" value="Files.Types" />
+    <property role="TrG5h" value="CategoryValue" />
+    <property role="EcuMT" value="8908363177680448596" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7IwRhMfO2M_" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="14h1S4rU0Zd">
+    <property role="TrG5h" value="EntryCategoryType" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="category type" />
+    <property role="R5$K2" value="true" />
+    <property role="R5$K7" value="false" />
+    <property role="EcuMT" value="1229772424349224909" />
+    <property role="3GE5qa" value="Files.Types" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7IwRhMfO2MB" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="members" />
+      <property role="20lbJX" value="0..n" />
+      <property role="IQ2ns" value="8908363177680448679" />
+      <ref role="20lvS9" node="7IwRhMfO2Lk" resolve="CategoryValue" />
+    </node>
+    <node concept="PrWs8" id="14h1S4rU0Ze" role="PzmwI">
+      <ref role="PrY4T" node="14h1S4rSwS0" resolve="EntryType" />
+    </node>
+    <node concept="PrWs8" id="14h1S4s0WZ3" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="14h1S4rSwS0">
+    <property role="3GE5qa" value="Files.Types" />
+    <property role="TrG5h" value="EntryType" />
+    <property role="EcuMT" value="1229772424348831232" />
+    <node concept="PrWs8" id="2SKvIxfT4v6" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="1Ih7lIqFzlx" role="PrDN$">
+      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
     </node>
   </node>
 </model>

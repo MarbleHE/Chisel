@@ -66,7 +66,7 @@
   </registry>
   <node concept="2S6QgY" id="74tJDeaYa2n">
     <property role="3GE5qa" value="Input" />
-    <property role="TrG5h" value="AddEncryptedModifier" />
+    <property role="TrG5h" value="AddEncryptedInputModifier" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="qmf0:7Vd20ShaPBk" resolve="InputDeclaration" />
     <node concept="2S6ZIM" id="74tJDeaYa2o" role="2ZfVej">
@@ -82,7 +82,7 @@
             <node concept="2OqwBi" id="74tJDeaYal2" role="3K4Cdx">
               <node concept="2Sf5sV" id="74tJDeaYa3f" role="2Oq$k0" />
               <node concept="3TrcHB" id="74tJDeaYb67" role="2OqNvi">
-                <ref role="3TsBF5" to="qmf0:74tJDeaY6Bf" resolve="isEncrypted" />
+                <ref role="3TsBF5" to="qmf0:74tJDeaY6Bf" resolve="isEncryptedInput" />
               </node>
             </node>
           </node>
@@ -96,7 +96,7 @@
             <node concept="2OqwBi" id="74tJDeaYcJ5" role="2Oq$k0">
               <node concept="2Sf5sV" id="74tJDeaYcxG" role="2Oq$k0" />
               <node concept="3TrcHB" id="74tJDeaYdrR" role="2OqNvi">
-                <ref role="3TsBF5" to="qmf0:74tJDeaY6Bf" resolve="isEncrypted" />
+                <ref role="3TsBF5" to="qmf0:74tJDeaY6Bf" resolve="isEncryptedInput" />
               </node>
             </node>
             <node concept="tyxLq" id="74tJDeaYekX" role="2OqNvi">
@@ -104,7 +104,57 @@
                 <node concept="2OqwBi" id="74tJDeaYeEK" role="3fr31v">
                   <node concept="2Sf5sV" id="74tJDeaYeqh" role="2Oq$k0" />
                   <node concept="3TrcHB" id="74tJDeaYfp9" role="2OqNvi">
-                    <ref role="3TsBF5" to="qmf0:74tJDeaY6Bf" resolve="isEncrypted" />
+                    <ref role="3TsBF5" to="qmf0:74tJDeaY6Bf" resolve="isEncryptedInput" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="6VuGeviuTV3">
+    <property role="3GE5qa" value="Computation" />
+    <property role="TrG5h" value="AddEncryptedCompModifier" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="qmf0:7Vd20Sh50tG" resolve="Computation" />
+    <node concept="2S6ZIM" id="6VuGeviuTV4" role="2ZfVej">
+      <node concept="3clFbS" id="6VuGeviuTV5" role="2VODD2">
+        <node concept="3clFbF" id="6VuGeviuTZZ" role="3cqZAp">
+          <node concept="3K4zz7" id="6VuGeviuU00" role="3clFbG">
+            <node concept="Xl_RD" id="6VuGeviuU01" role="3K4E3e">
+              <property role="Xl_RC" value="Remove 'encrypted' modifier" />
+            </node>
+            <node concept="Xl_RD" id="6VuGeviuU02" role="3K4GZi">
+              <property role="Xl_RC" value="Add 'encrypted' modifier" />
+            </node>
+            <node concept="2OqwBi" id="6VuGeviuU03" role="3K4Cdx">
+              <node concept="2Sf5sV" id="6VuGeviuU04" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6VuGeviuU05" role="2OqNvi">
+                <ref role="3TsBF5" to="qmf0:6VuGeviuKh1" resolve="isEncryptedComp" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="6VuGeviuTV6" role="2ZfgGD">
+      <node concept="3clFbS" id="6VuGeviuTV7" role="2VODD2">
+        <node concept="3clFbF" id="6VuGeviuUdJ" role="3cqZAp">
+          <node concept="2OqwBi" id="6VuGeviuUdK" role="3clFbG">
+            <node concept="2OqwBi" id="6VuGeviuUdL" role="2Oq$k0">
+              <node concept="2Sf5sV" id="6VuGeviuUdM" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6VuGeviuUdN" role="2OqNvi">
+                <ref role="3TsBF5" to="qmf0:6VuGeviuKh1" resolve="isEncryptedComp" />
+              </node>
+            </node>
+            <node concept="tyxLq" id="6VuGeviuUdO" role="2OqNvi">
+              <node concept="3fqX7Q" id="6VuGeviuUdP" role="tz02z">
+                <node concept="2OqwBi" id="6VuGeviuUdQ" role="3fr31v">
+                  <node concept="2Sf5sV" id="6VuGeviuUdR" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="6VuGeviuUdS" role="2OqNvi">
+                    <ref role="3TsBF5" to="qmf0:6VuGeviuKh1" resolve="isEncryptedComp" />
                   </node>
                 </node>
               </node>
