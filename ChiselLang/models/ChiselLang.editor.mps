@@ -247,7 +247,7 @@
     <ref role="1XX52x" to="nxdh:7Vd20Sh50tG" resolve="Computation" />
     <node concept="3EZMnI" id="7Vd20Sh9EKw" role="2wV5jI">
       <node concept="3F0ifn" id="6VuGeviuKpo" role="3EZMnx">
-        <property role="3F0ifm" value="encrypted" />
+        <property role="3F0ifm" value="crypto" />
         <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
         <node concept="pkWqt" id="6VuGeviuKpE" role="pqm2j">
           <node concept="3clFbS" id="6VuGeviuKpF" role="2VODD2">
@@ -255,7 +255,7 @@
               <node concept="2OqwBi" id="6VuGeviuLtl" role="3cqZAk">
                 <node concept="pncrf" id="6VuGeviuLg6" role="2Oq$k0" />
                 <node concept="3TrcHB" id="7MGcVSevqQ_" role="2OqNvi">
-                  <ref role="3TsBF5" to="nxdh:6VuGeviuKh1" resolve="isEncryptedComp" />
+                  <ref role="3TsBF5" to="nxdh:6VuGeviuKh1" resolve="isCryptoComp" />
                 </node>
               </node>
             </node>

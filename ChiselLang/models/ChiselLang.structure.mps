@@ -77,7 +77,7 @@
     </node>
     <node concept="1TJgyi" id="6VuGeviuKh1" role="1TKVEl">
       <property role="IQ2nx" value="7989017298717049921" />
-      <property role="TrG5h" value="isEncryptedComp" />
+      <property role="TrG5h" value="isCryptoComp" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
@@ -232,8 +232,15 @@
       <property role="IQ2ns" value="8983612248077508393" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="entries" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="7MGcVSewxWF" resolve="EntryDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="66kEE69onJ" role="1TKVEi">
+      <property role="IQ2ns" value="109866133265679855" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="tests" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7Vd20Sh50tG" resolve="Computation" />
     </node>
     <node concept="PrWs8" id="7MGcVSewxX1" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />

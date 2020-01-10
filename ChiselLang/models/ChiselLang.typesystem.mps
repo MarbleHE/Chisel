@@ -1054,7 +1054,7 @@
               </node>
             </node>
             <node concept="3TrcHB" id="7MGcVSevMVV" role="2OqNvi">
-              <ref role="3TsBF5" to="nxdh:6VuGeviuKh1" resolve="isEncryptedComp" />
+              <ref role="3TsBF5" to="nxdh:6VuGeviuKh1" resolve="isCryptoComp" />
             </node>
           </node>
         </node>
