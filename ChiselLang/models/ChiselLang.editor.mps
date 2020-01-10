@@ -135,7 +135,7 @@
               <node concept="2OqwBi" id="hxiFqjV" role="2Oq$k0">
                 <node concept="0IXxy" id="h9EBUTi" role="2Oq$k0" />
                 <node concept="3TrcHB" id="7MGcVSevsBd" role="2OqNvi">
-                  <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isEncryptedInput" />
+                  <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isSecretInput" />
                 </node>
               </node>
               <node concept="tyxLq" id="h9EBW2T" role="2OqNvi">
@@ -166,6 +166,29 @@
         </node>
       </node>
       <node concept="3F0ifn" id="3iGtkSVQrO7" role="3EZMnx" />
+      <node concept="3F0ifn" id="7MGcVSey_tW" role="3EZMnx">
+        <property role="3F0ifm" value="ErrorFiles:" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+        <node concept="pVoyu" id="7MGcVSey_vh" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="7MGcVSe_rvu" role="3EZMnx">
+        <ref role="1NtTu8" to="nxdh:7MGcVSey_tu" resolve="errorFiles" />
+        <node concept="2iRkQZ" id="7MGcVSe_rvx" role="2czzBx" />
+        <node concept="VPM3Z" id="7MGcVSe_rvy" role="3F10Kt" />
+        <node concept="pVoyu" id="7MGcVSe_rvX" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="7MGcVSe_rw0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7MGcVSe_Gkg" role="3EZMnx">
+        <node concept="pVoyu" id="7MGcVSe_GkK" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F0ifn" id="3iGtkSVMbeW" role="3EZMnx">
         <property role="3F0ifm" value="Parties: " />
         <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
@@ -225,6 +248,7 @@
     <node concept="3EZMnI" id="7Vd20Sh9EKw" role="2wV5jI">
       <node concept="3F0ifn" id="6VuGeviuKpo" role="3EZMnx">
         <property role="3F0ifm" value="encrypted" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
         <node concept="pkWqt" id="6VuGeviuKpE" role="pqm2j">
           <node concept="3clFbS" id="6VuGeviuKpF" role="2VODD2">
             <node concept="3cpWs6" id="6VuGeviuLfi" role="3cqZAp">
@@ -292,7 +316,7 @@
     <ref role="1XX52x" to="nxdh:7Vd20ShaPBk" resolve="InputDeclaration" />
     <node concept="3EZMnI" id="7Vd20ShaPBx" role="2wV5jI">
       <node concept="3F0ifn" id="74tJDeb0WzA" role="3EZMnx">
-        <property role="3F0ifm" value="encrypted" />
+        <property role="3F0ifm" value="secret" />
         <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
         <node concept="pkWqt" id="74tJDeb0W$q" role="pqm2j">
           <node concept="3clFbS" id="74tJDeb0W$r" role="2VODD2">
@@ -300,7 +324,7 @@
               <node concept="2OqwBi" id="74tJDeb0W$t" role="3cqZAk">
                 <node concept="pncrf" id="74tJDeb0W$u" role="2Oq$k0" />
                 <node concept="3TrcHB" id="7MGcVSevs0s" role="2OqNvi">
-                  <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isEncryptedInput" />
+                  <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isSecretInput" />
                 </node>
               </node>
             </node>
@@ -419,7 +443,7 @@
   </node>
   <node concept="24kQdi" id="7MGcVSewxWO">
     <property role="3GE5qa" value="File" />
-    <ref role="1XX52x" to="nxdh:7MGcVSewxWA" resolve="DataFile" />
+    <ref role="1XX52x" to="nxdh:7MGcVSewxWA" resolve="FileDeclaration" />
     <node concept="3EZMnI" id="Ewa7TirWRu" role="2wV5jI">
       <node concept="3F0ifn" id="Ewa7TirWR_" role="3EZMnx">
         <property role="3F0ifm" value="Data File: " />
@@ -433,30 +457,87 @@
         <node concept="pVoyu" id="Ewa7TirWSy" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="lj46D" id="7MGcVSe_WHQ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0A7n" id="Ewa7TirWS6" role="3EZMnx">
         <ref role="1NtTu8" to="nxdh:7MGcVSewxWB" resolve="path" />
       </node>
       <node concept="3F0ifn" id="Ewa7TirWSF" role="3EZMnx">
-        <property role="3F0ifm" value="entries: " />
+        <property role="3F0ifm" value="entries:" />
         <node concept="pVoyu" id="Ewa7TirWT6" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="lj46D" id="7MGcVSe_WHT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
-      <node concept="3F2HdR" id="Ewa7TirWSV" role="3EZMnx">
+      <node concept="3F2HdR" id="7MGcVSexBqM" role="3EZMnx">
         <ref role="1NtTu8" to="nxdh:7MGcVSewxWD" resolve="entries" />
-        <node concept="l2Vlx" id="Ewa7TirWSX" role="2czzBx" />
+        <node concept="2iRkQZ" id="7MGcVSexBqP" role="2czzBx" />
+        <node concept="VPM3Z" id="7MGcVSexBqQ" role="3F10Kt" />
+        <node concept="pVoyu" id="7MGcVSexBQl" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="7MGcVSexBQo" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
     </node>
   </node>
   <node concept="24kQdi" id="7MGcVSewV8U">
     <property role="3GE5qa" value="File" />
-    <ref role="1XX52x" to="nxdh:7MGcVSewxWF" resolve="Entry" />
+    <ref role="1XX52x" to="nxdh:7MGcVSewxWF" resolve="EntryDeclaration" />
     <node concept="3EZMnI" id="7MGcVSexbAU" role="2wV5jI">
       <node concept="3F0ifn" id="7MGcVSexbB5" role="3EZMnx">
-        <property role="3F0ifm" value="Entry" />
+        <property role="3F0ifm" value="entry:" />
+        <node concept="lj46D" id="7MGcVSe_WHW" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="7MGcVSe$rjg" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="7MGcVSe$rjq" role="3EZMnx">
+        <property role="3F0ifm" value="-" />
+      </node>
+      <node concept="3F0A7n" id="7MGcVSexBpD" role="3EZMnx">
+        <ref role="1NtTu8" to="nxdh:7MGcVSexBpw" resolve="text" />
       </node>
       <node concept="l2Vlx" id="7MGcVSexbAX" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7MGcVSezfNW">
+    <property role="3GE5qa" value="File" />
+    <ref role="1XX52x" to="nxdh:7MGcVSez1Kp" resolve="FileRef" />
+    <node concept="3EZMnI" id="7MGcVSezfNY" role="2wV5jI">
+      <node concept="1iCGBv" id="7MGcVSezfNZ" role="3EZMnx">
+        <ref role="1NtTu8" to="nxdh:7MGcVSez1Kq" resolve="ref" />
+        <node concept="1sVBvm" id="7MGcVSezfO0" role="1sWHZn">
+          <node concept="3F0A7n" id="7MGcVSezfO1" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7MGcVSezfO2" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7MGcVSezPKP">
+    <property role="3GE5qa" value="File" />
+    <ref role="1XX52x" to="nxdh:7MGcVSezPCZ" resolve="EntryRef" />
+    <node concept="3EZMnI" id="7MGcVSezPKR" role="2wV5jI">
+      <node concept="1iCGBv" id="7MGcVSezPKS" role="3EZMnx">
+        <ref role="1NtTu8" to="nxdh:7MGcVSezPD0" resolve="ref" />
+        <node concept="1sVBvm" id="7MGcVSezPKT" role="1sWHZn">
+          <node concept="3F0A7n" id="7MGcVSezPKU" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7MGcVSezPKV" role="2iSdaV" />
     </node>
   </node>
 </model>

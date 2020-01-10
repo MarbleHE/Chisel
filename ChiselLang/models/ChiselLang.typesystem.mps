@@ -727,7 +727,7 @@
                         </node>
                       </node>
                       <node concept="3TrcHB" id="7MGcVSevUUR" role="2OqNvi">
-                        <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isEncryptedInput" />
+                        <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isSecretInput" />
                       </node>
                     </node>
                   </node>
@@ -1063,6 +1063,68 @@
     <node concept="1YaCAy" id="6VuGevilVNC" role="1YuTPh">
       <property role="TrG5h" value="myStatementList" />
       <ref role="1YaFvo" to="nxdh:6VuGevigkg4" resolve="MyStatementList" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="7MGcVSe$FRu">
+    <property role="TrG5h" value="typeof_EntryRef" />
+    <property role="3GE5qa" value="File" />
+    <node concept="3clFbS" id="7MGcVSe$FRv" role="18ibNy">
+      <node concept="1Z5TYs" id="7MGcVSe$FR_" role="3cqZAp">
+        <node concept="mw_s8" id="7MGcVSe$FRA" role="1ZfhKB">
+          <node concept="1Z2H0r" id="7MGcVSe$ML4" role="mwGJk">
+            <node concept="2OqwBi" id="7MGcVSe$MT1" role="1Z2MuG">
+              <node concept="1YBJjd" id="7MGcVSe$ML5" role="2Oq$k0">
+                <ref role="1YBMHb" node="7MGcVSe$FRx" resolve="entryRef" />
+              </node>
+              <node concept="3TrEf2" id="7MGcVSe$MU0" role="2OqNvi">
+                <ref role="3Tt5mk" to="nxdh:7MGcVSezPD0" resolve="ref" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="7MGcVSe$FRG" role="1ZfhK$">
+          <node concept="1Z2H0r" id="7MGcVSe$FRH" role="mwGJk">
+            <node concept="1YBJjd" id="7MGcVSe$FSU" role="1Z2MuG">
+              <ref role="1YBMHb" node="7MGcVSe$FRx" resolve="entryRef" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7MGcVSe$FRx" role="1YuTPh">
+      <property role="TrG5h" value="entryRef" />
+      <ref role="1YaFvo" to="nxdh:7MGcVSezPCZ" resolve="EntryRef" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="7MGcVSe$GbQ">
+    <property role="TrG5h" value="typeof_FileRef" />
+    <property role="3GE5qa" value="File" />
+    <node concept="3clFbS" id="7MGcVSe$GbR" role="18ibNy">
+      <node concept="1Z5TYs" id="7MGcVSe$MXK" role="3cqZAp">
+        <node concept="mw_s8" id="7MGcVSe$MXL" role="1ZfhKB">
+          <node concept="1Z2H0r" id="7MGcVSe$MXM" role="mwGJk">
+            <node concept="2OqwBi" id="7MGcVSe$MXN" role="1Z2MuG">
+              <node concept="1YBJjd" id="7MGcVSe$N1P" role="2Oq$k0">
+                <ref role="1YBMHb" node="7MGcVSe$GbT" resolve="fileRef" />
+              </node>
+              <node concept="3TrEf2" id="7MGcVSe$Nb0" role="2OqNvi">
+                <ref role="3Tt5mk" to="nxdh:7MGcVSez1Kq" resolve="ref" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="7MGcVSe$MXQ" role="1ZfhK$">
+          <node concept="1Z2H0r" id="7MGcVSe$MXR" role="mwGJk">
+            <node concept="1YBJjd" id="7MGcVSe$N1l" role="1Z2MuG">
+              <ref role="1YBMHb" node="7MGcVSe$GbT" resolve="fileRef" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7MGcVSe$GbT" role="1YuTPh">
+      <property role="TrG5h" value="fileRef" />
+      <ref role="1YaFvo" to="nxdh:7MGcVSez1Kp" resolve="FileRef" />
     </node>
   </node>
 </model>

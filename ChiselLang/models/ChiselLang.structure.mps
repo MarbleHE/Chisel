@@ -105,6 +105,13 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="7Vd20Sh50tG" resolve="Computation" />
     </node>
+    <node concept="1TJgyj" id="7MGcVSey_tu" role="1TKVEi">
+      <property role="IQ2ns" value="8983612248078047070" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="errorFiles" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7MGcVSewxWA" resolve="FileDeclaration" />
+    </node>
     <node concept="PrWs8" id="3iGtkSVMbez" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -191,7 +198,7 @@
     </node>
     <node concept="1TJgyi" id="74tJDeaY6Bf" role="1TKVEl">
       <property role="IQ2nx" value="8150880441511471567" />
-      <property role="TrG5h" value="isEncryptedInput" />
+      <property role="TrG5h" value="isSecretInput" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
@@ -212,7 +219,7 @@
   </node>
   <node concept="1TIwiD" id="7MGcVSewxWA">
     <property role="EcuMT" value="8983612248077508390" />
-    <property role="TrG5h" value="DataFile" />
+    <property role="TrG5h" value="FileDeclaration" />
     <property role="3GE5qa" value="File" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -226,7 +233,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="entries" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="7MGcVSewxWF" resolve="Entry" />
+      <ref role="20lvS9" node="7MGcVSewxWF" resolve="EntryDeclaration" />
     </node>
     <node concept="PrWs8" id="7MGcVSewxX1" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -234,9 +241,45 @@
   </node>
   <node concept="1TIwiD" id="7MGcVSewxWF">
     <property role="EcuMT" value="8983612248077508395" />
-    <property role="TrG5h" value="Entry" />
+    <property role="TrG5h" value="EntryDeclaration" />
     <property role="3GE5qa" value="File" />
+    <property role="34LRSv" value="entry" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7MGcVSexBpw" role="1TKVEl">
+      <property role="IQ2nx" value="8983612248077792864" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="7MGcVSezPKF" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7MGcVSez1Kp">
+    <property role="EcuMT" value="8983612248078162969" />
+    <property role="3GE5qa" value="File" />
+    <property role="TrG5h" value="FileRef" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="7MGcVSez1Kq" role="1TKVEi">
+      <property role="IQ2ns" value="8983612248078162970" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7MGcVSewxWA" resolve="FileDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7MGcVSezPCZ">
+    <property role="EcuMT" value="8983612248078375487" />
+    <property role="3GE5qa" value="File" />
+    <property role="TrG5h" value="EntryRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7MGcVSezPD0" role="1TKVEi">
+      <property role="IQ2ns" value="8983612248078375488" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7MGcVSewxWF" resolve="EntryDeclaration" />
+    </node>
+    <node concept="PrWs8" id="7MGcVSezPKD" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
+    </node>
   </node>
 </model>
 

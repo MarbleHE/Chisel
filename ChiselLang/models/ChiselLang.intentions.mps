@@ -132,7 +132,7 @@
             <node concept="2OqwBi" id="74tJDeaYal2" role="3K4Cdx">
               <node concept="2Sf5sV" id="74tJDeaYa3f" role="2Oq$k0" />
               <node concept="3TrcHB" id="7MGcVSewjB7" role="2OqNvi">
-                <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isEncryptedInput" />
+                <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isSecretInput" />
               </node>
             </node>
           </node>
@@ -146,7 +146,7 @@
             <node concept="2OqwBi" id="74tJDeaYcJ5" role="2Oq$k0">
               <node concept="2Sf5sV" id="74tJDeaYcxG" role="2Oq$k0" />
               <node concept="3TrcHB" id="7MGcVSewjCp" role="2OqNvi">
-                <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isEncryptedInput" />
+                <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isSecretInput" />
               </node>
             </node>
             <node concept="tyxLq" id="74tJDeaYekX" role="2OqNvi">
@@ -154,7 +154,7 @@
                 <node concept="2OqwBi" id="74tJDeaYeEK" role="3fr31v">
                   <node concept="2Sf5sV" id="74tJDeaYeqh" role="2Oq$k0" />
                   <node concept="3TrcHB" id="7MGcVSewjDv" role="2OqNvi">
-                    <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isEncryptedInput" />
+                    <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isSecretInput" />
                   </node>
                 </node>
               </node>
