@@ -114,55 +114,5 @@
       </node>
     </node>
   </node>
-  <node concept="2S6QgY" id="74tJDeaYa2n">
-    <property role="3GE5qa" value="Input" />
-    <property role="TrG5h" value="AddEncryptedInputModifier" />
-    <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="nxdh:7Vd20ShaPBk" resolve="InputDeclaration" />
-    <node concept="2S6ZIM" id="74tJDeaYa2o" role="2ZfVej">
-      <node concept="3clFbS" id="74tJDeaYa2p" role="2VODD2">
-        <node concept="3clFbF" id="74tJDeaYa3g" role="3cqZAp">
-          <node concept="3K4zz7" id="74tJDeaYc8B" role="3clFbG">
-            <node concept="Xl_RD" id="74tJDeaYc9t" role="3K4E3e">
-              <property role="Xl_RC" value="Remove 'secret' modifier" />
-            </node>
-            <node concept="Xl_RD" id="74tJDeaYcmQ" role="3K4GZi">
-              <property role="Xl_RC" value="Add 'secret' modifier" />
-            </node>
-            <node concept="2OqwBi" id="74tJDeaYal2" role="3K4Cdx">
-              <node concept="2Sf5sV" id="74tJDeaYa3f" role="2Oq$k0" />
-              <node concept="3TrcHB" id="7MGcVSewjB7" role="2OqNvi">
-                <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isSecretInput" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="74tJDeaYa2q" role="2ZfgGD">
-      <node concept="3clFbS" id="74tJDeaYa2r" role="2VODD2">
-        <node concept="3clFbF" id="74tJDeaYcxH" role="3cqZAp">
-          <node concept="2OqwBi" id="74tJDeaYe8S" role="3clFbG">
-            <node concept="2OqwBi" id="74tJDeaYcJ5" role="2Oq$k0">
-              <node concept="2Sf5sV" id="74tJDeaYcxG" role="2Oq$k0" />
-              <node concept="3TrcHB" id="7MGcVSewjCp" role="2OqNvi">
-                <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isSecretInput" />
-              </node>
-            </node>
-            <node concept="tyxLq" id="74tJDeaYekX" role="2OqNvi">
-              <node concept="3fqX7Q" id="74tJDeaYeqa" role="tz02z">
-                <node concept="2OqwBi" id="74tJDeaYeEK" role="3fr31v">
-                  <node concept="2Sf5sV" id="74tJDeaYeqh" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="7MGcVSewjDv" role="2OqNvi">
-                    <ref role="3TsBF5" to="nxdh:74tJDeaY6Bf" resolve="isSecretInput" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
 </model>
 
