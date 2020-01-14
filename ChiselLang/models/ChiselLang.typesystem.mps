@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
@@ -144,12 +145,16 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
+        <reference id="3562215692195600259" name="link" index="13MTZf" />
+      </concept>
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
@@ -729,17 +734,27 @@
         <node concept="2GrKxI" id="6HYISdlTgC_" role="2Gsz3X">
           <property role="TrG5h" value="stmt" />
         </node>
-        <node concept="2OqwBi" id="6HYISdlThhk" role="2GsD0m">
-          <node concept="2OqwBi" id="6HYISdlTgP2" role="2Oq$k0">
-            <node concept="1YBJjd" id="6HYISdlTgCS" role="2Oq$k0">
-              <ref role="1YBMHb" node="6HYISdlTgCw" resolve="partyDeclaration" />
+        <node concept="2OqwBi" id="6HYISdlZ9Xt" role="2GsD0m">
+          <node concept="2OqwBi" id="6HYISdlZ5xz" role="2Oq$k0">
+            <node concept="2OqwBi" id="6HYISdlZ4O0" role="2Oq$k0">
+              <node concept="2OqwBi" id="6HYISdlTgP2" role="2Oq$k0">
+                <node concept="1YBJjd" id="6HYISdlTgCS" role="2Oq$k0">
+                  <ref role="1YBMHb" node="6HYISdlTgCw" resolve="partyDeclaration" />
+                </node>
+                <node concept="3TrEf2" id="6HYISdlTh0I" role="2OqNvi">
+                  <ref role="3Tt5mk" to="nxdh:6HYISdlHZaA" resolve="class" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="6HYISdlZ4YB" role="2OqNvi">
+                <ref role="37wK5l" to="tpek:4_LVZ3pBKCn" resolve="methods" />
+              </node>
             </node>
-            <node concept="3TrEf2" id="6HYISdlTh0I" role="2OqNvi">
-              <ref role="3Tt5mk" to="nxdh:6HYISdlHZaA" resolve="body" />
+            <node concept="13MTOL" id="6HYISdlZ5Gq" role="2OqNvi">
+              <ref role="13MTZf" to="tpee:fzclF7Z" resolve="body" />
             </node>
           </node>
-          <node concept="3Tsc0h" id="6HYISdlThj1" role="2OqNvi">
-            <ref role="3TtcxE" to="tpee:fzcqZ_x" resolve="statement" />
+          <node concept="13MTOL" id="6HYISdlZaty" role="2OqNvi">
+            <ref role="13MTZf" to="tpee:fzcqZ_x" resolve="statement" />
           </node>
         </node>
         <node concept="3clFbS" id="6HYISdlTgCB" role="2LFqv$">
@@ -888,6 +903,14 @@
     <node concept="1YaCAy" id="6HYISdlTgCw" role="1YuTPh">
       <property role="TrG5h" value="partyDeclaration" />
       <ref role="1YaFvo" to="nxdh:3iGtkSVOKWp" resolve="PartyDeclaration" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="6HYISdm0_ab">
+    <property role="TrG5h" value="check_MyClassConcept" />
+    <node concept="3clFbS" id="6HYISdm0_ac" role="18ibNy" />
+    <node concept="1YaCAy" id="6HYISdm0_ae" role="1YuTPh">
+      <property role="TrG5h" value="myClassConcept" />
+      <ref role="1YaFvo" to="nxdh:6HYISdlZqjB" resolve="MyClassConcept" />
     </node>
   </node>
 </model>

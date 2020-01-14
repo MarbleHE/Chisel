@@ -156,18 +156,15 @@
     <node concept="PrWs8" id="3iGtkSVOKWq" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="PrWs8" id="6HYISdlKXnP" role="PzmwI">
-      <ref role="PrY4T" to="tpee:i2fhoOR" resolve="IMethodLike" />
-    </node>
     <node concept="PrWs8" id="6HYISdlKXnX" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
     <node concept="1TJgyj" id="6HYISdlHZaA" role="1TKVEi">
       <property role="IQ2ns" value="7745834581877060262" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="body" />
+      <property role="20kJfa" value="class" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
+      <ref role="20lvS9" node="6HYISdlZqjB" resolve="MyClassConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="7Vd20Sh96Xe">
@@ -294,6 +291,11 @@
       <property role="3tVfz5" value="7745834581881263601" />
       <property role="TrG5h" value="malicious" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="6HYISdlZqjB">
+    <property role="EcuMT" value="7745834581881627879" />
+    <property role="TrG5h" value="MyClassConcept" />
+    <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
   </node>
 </model>
 

@@ -18,7 +18,7 @@
     <import index="fnmy" ref="r:89c0fb70-0977-4113-a076-5906f9d8630f(jetbrains.mps.baseLanguage.scopes)" />
     <import index="nxdh" ref="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
-    <import index="if8w" ref="r:95397225-9080-48bc-b1aa-0ce7c4f3d2ce(jetbrains.mps.lang.traceable.behavior)" implicit="true" />
+    <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -425,11 +425,11 @@
                     <ref role="3cqZAo" node="6HYISdlPZj$" resolve="party" />
                   </node>
                   <node concept="3TrEf2" id="6HYISdlQ2_U" role="2OqNvi">
-                    <ref role="3Tt5mk" to="nxdh:6HYISdlHZaA" resolve="body" />
+                    <ref role="3Tt5mk" to="nxdh:6HYISdlHZaA" resolve="class" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="6HYISdlSNwe" role="2OqNvi">
-                  <ref role="37wK5l" to="if8w:4pl5GY7LKmA" resolve="getScopeVariables" />
+                <node concept="2qgKlT" id="6HYISdlZ3HH" role="2OqNvi">
+                  <ref role="37wK5l" to="tpek:4_LVZ3pC27C" resolve="fields" />
                 </node>
               </node>
             </node>

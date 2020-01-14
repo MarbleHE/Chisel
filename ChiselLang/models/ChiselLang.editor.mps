@@ -31,6 +31,9 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
+        <reference id="1078939183255" name="editorComponent" index="PMmxG" />
+      </concept>
       <concept id="4323500428121233431" name="jetbrains.mps.lang.editor.structure.EditorCellId" flags="ng" index="2SqB2G" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
@@ -300,6 +303,9 @@
     <node concept="3EZMnI" id="6HYISdlIBl5" role="2wV5jI">
       <node concept="3F0A7n" id="6HYISdlIBxp" role="3EZMnx">
         <ref role="1NtTu8" to="nxdh:6HYISdlHZaM" resolve="trustLevel" />
+        <node concept="pVoyu" id="6HYISdlZrUZ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0A7n" id="6HYISdlIBld" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -308,7 +314,7 @@
         <property role="3F0ifm" value="[" />
       </node>
       <node concept="3F1sOY" id="6HYISdlIBlt" role="3EZMnx">
-        <ref role="1NtTu8" to="nxdh:6HYISdlHZaA" resolve="body" />
+        <ref role="1NtTu8" to="nxdh:6HYISdlHZaA" resolve="class" />
         <node concept="pVoyu" id="6HYISdlIBlu" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -502,6 +508,18 @@
         </node>
       </node>
       <node concept="l2Vlx" id="i0v3bx0" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6HYISdlZqk3">
+    <ref role="1XX52x" to="nxdh:6HYISdlZqjB" resolve="MyClassConcept" />
+    <node concept="3EZMnI" id="6HYISdlZsma" role="2wV5jI">
+      <node concept="PMmxH" id="6HYISdlZuv_" role="3EZMnx">
+        <ref role="PMmxG" to="tpen:3Z61ZaMckgv" resolve="ClassifierMembers_Component" />
+        <node concept="pVoyu" id="6HYISdlZxaw" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="6HYISdlZsmd" role="2iSdaV" />
     </node>
   </node>
 </model>
