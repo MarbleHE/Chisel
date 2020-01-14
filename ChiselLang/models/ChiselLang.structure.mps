@@ -166,6 +166,13 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6HYISdlZqjB" resolve="MyClassConcept" />
     </node>
+    <node concept="1TJgyj" id="6HYISdmAX7n" role="1TKVEi">
+      <property role="IQ2ns" value="7745834581891994071" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="computationOutput" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7Vd20Sh96Xe">
     <property role="EcuMT" value="9136968075514769230" />
@@ -251,7 +258,12 @@
     <property role="34LRSv" value="my return" />
     <property role="3GE5qa" value="Computation" />
     <ref role="1TJDcQ" to="tpee:fzcpWvY" resolve="ReturnStatement" />
-    <node concept="PrWs8" id="w4TlE3_0Kk" role="PzmwI">
+    <node concept="1TJgyi" id="6HYISdmBCHD" role="1TKVEl">
+      <property role="IQ2nx" value="7745834581892172649" />
+      <property role="TrG5h" value="added" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="6HYISdmC4d5" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>

@@ -87,7 +87,7 @@
             </node>
             <node concept="3cpWs3" id="4xBnQsaj55y" role="3uHU7B">
               <node concept="Xl_RD" id="4xBnQsaj55x" role="3uHU7B">
-                <property role="Xl_RC" value="mymatrix &lt;" />
+                <property role="Xl_RC" value="matrix &lt;" />
               </node>
               <node concept="2OqwBi" id="4xBnQsaj55F" role="3uHU7w">
                 <node concept="2OqwBi" id="4xBnQsaj55A" role="2Oq$k0">
