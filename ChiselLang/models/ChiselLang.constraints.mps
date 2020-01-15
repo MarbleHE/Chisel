@@ -113,6 +113,9 @@
       <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="4124388153790980106" name="jetbrains.mps.lang.smodel.structure.Reference_GetTargetOperation" flags="nn" index="2ZHEkA" />
+      <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
+        <reference id="3562215692195600259" name="link" index="13MTZf" />
+      </concept>
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -415,21 +418,42 @@
               </node>
             </node>
           </node>
-          <node concept="3cpWs6" id="6HYISdlQ1Zq" role="3cqZAp">
-            <node concept="2YIFZM" id="6HYISdlQ26a" role="3cqZAk">
-              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-              <node concept="2OqwBi" id="6HYISdlQipg" role="37wK5m">
-                <node concept="2OqwBi" id="6HYISdlQ2o2" role="2Oq$k0">
-                  <node concept="37vLTw" id="6HYISdlQ28Y" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6HYISdlPZj$" resolve="party" />
+          <node concept="3cpWs6" id="6HYISdmQuFl" role="3cqZAp">
+            <node concept="2YIFZM" id="6HYISdmQuOn" role="3cqZAk">
+              <ref role="37wK5l" to="o8zo:7ipADkTevQ_" resolve="createComposite" />
+              <ref role="1Pybhc" to="o8zo:7ipADkTevLt" resolve="CompositeScope" />
+              <node concept="2YIFZM" id="6HYISdmQvcb" role="37wK5m">
+                <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+                <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                <node concept="2OqwBi" id="6HYISdmQwbH" role="37wK5m">
+                  <node concept="2OqwBi" id="6HYISdmQvzP" role="2Oq$k0">
+                    <node concept="37vLTw" id="6HYISdmQvi0" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6HYISdlPZj$" resolve="party" />
+                    </node>
+                    <node concept="3TrEf2" id="6HYISdmQvK$" role="2OqNvi">
+                      <ref role="3Tt5mk" to="nxdh:6HYISdlHZaA" resolve="class" />
+                    </node>
                   </node>
-                  <node concept="3TrEf2" id="6HYISdlQ2_U" role="2OqNvi">
-                    <ref role="3Tt5mk" to="nxdh:6HYISdlHZaA" resolve="class" />
+                  <node concept="2qgKlT" id="6HYISdmQxsp" role="2OqNvi">
+                    <ref role="37wK5l" to="tpek:4_LVZ3pC27C" resolve="fields" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="6HYISdlZ3HH" role="2OqNvi">
-                  <ref role="37wK5l" to="tpek:4_LVZ3pC27C" resolve="fields" />
+              </node>
+              <node concept="2YIFZM" id="6HYISdmSEz8" role="37wK5m">
+                <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+                <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                <node concept="2OqwBi" id="6HYISdmT6RH" role="37wK5m">
+                  <node concept="2OqwBi" id="6HYISdmSERh" role="2Oq$k0">
+                    <node concept="37vLTw" id="6HYISdmSEBS" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6HYISdlPZj$" resolve="party" />
+                    </node>
+                    <node concept="3Tsc0h" id="6HYISdmT3Um" role="2OqNvi">
+                      <ref role="3TtcxE" to="nxdh:6HYISdmAX7n" resolve="computationOutputs" />
+                    </node>
+                  </node>
+                  <node concept="13MTOL" id="6HYISdmT8Wx" role="2OqNvi">
+                    <ref role="13MTZf" to="tpee:fzcqZ_w" resolve="variableDeclaration" />
+                  </node>
                 </node>
               </node>
             </node>
