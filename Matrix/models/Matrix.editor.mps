@@ -66,7 +66,7 @@
     <ref role="1XX52x" to="4vy6:6HYISdm4R44" resolve="MatrixRowDeclaration" />
     <node concept="3EZMnI" id="6HYISdm57nV" role="2wV5jI">
       <node concept="3F2HdR" id="6HYISdm57o2" role="3EZMnx">
-        <ref role="1NtTu8" to="4vy6:6HYISdm4R4a" resolve="content" />
+        <ref role="1NtTu8" to="4vy6:6HYISdm4R4a" resolve="cells" />
         <node concept="l2Vlx" id="6HYISdm57o4" role="2czzBx" />
       </node>
       <node concept="l2Vlx" id="6HYISdm57nY" role="2iSdaV" />
@@ -77,7 +77,7 @@
     <ref role="1XX52x" to="4vy6:6HYISdm3_Sf" resolve="MyMatrixDeclaration" />
     <node concept="3EZMnI" id="6HYISdm3_Tg" role="2wV5jI">
       <node concept="3F2HdR" id="6HYISdm3_Tx" role="3EZMnx">
-        <ref role="1NtTu8" to="4vy6:6HYISdm3_Sl" resolve="content" />
+        <ref role="1NtTu8" to="4vy6:6HYISdm3_Sl" resolve="rows" />
         <node concept="2iRkQZ" id="6HYISdm57oW" role="2czzBx" />
         <node concept="VPXOz" id="6HYISdm6a8I" role="3F10Kt">
           <property role="VOm3f" value="true" />

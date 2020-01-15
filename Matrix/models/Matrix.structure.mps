@@ -49,7 +49,7 @@
     <node concept="1TJgyj" id="6HYISdm3_Sl" role="1TKVEi">
       <property role="IQ2ns" value="7745834581882723861" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="content" />
+      <property role="20kJfa" value="rows" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="6HYISdm4R44" resolve="MatrixRowDeclaration" />
     </node>
@@ -62,7 +62,7 @@
     <node concept="1TJgyj" id="6HYISdm4R4a" role="1TKVEi">
       <property role="IQ2ns" value="7745834581883056394" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="content" />
+      <property role="20kJfa" value="cells" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="6HYISdm4R47" resolve="MatrixCellDeclaration" />
     </node>
