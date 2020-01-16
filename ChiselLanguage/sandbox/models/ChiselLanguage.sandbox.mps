@@ -4,6 +4,7 @@
   <languages>
     <use id="7a03b507-1420-45c7-889b-008d17ae6c16" name="ChiselLang" version="-1" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
+    <use id="985938bc-8b6a-4240-9621-2d020e0bb6e3" name="Matrix" version="0" />
   </languages>
   <imports />
   <registry>
@@ -86,7 +87,6 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
@@ -162,6 +162,9 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -192,6 +195,7 @@
         <child id="7745834581891994071" name="computationOutputs" index="XTmDk" />
         <child id="7745834581877060262" name="class" index="YMk$_" />
       </concept>
+      <concept id="7745834581903478791" name="ChiselLang.structure.SecretAnnotation" flags="ng" index="WdqI4" />
       <concept id="7989017298713265156" name="ChiselLang.structure.MyMethod" flags="ng" index="2WBZjz" />
       <concept id="7745834581881627879" name="ChiselLang.structure.MyClassConcept" flags="ig" index="YwLX$" />
       <concept id="7745834581877915677" name="ChiselLang.structure.DataReference" flags="ng" index="YIVIu">
@@ -1638,6 +1642,7 @@
           <node concept="3cmrfG" id="6HYISdmPN6K" role="33vP2m">
             <property role="3cmrfH" value="1" />
           </node>
+          <node concept="WdqI4" id="6HYISdnjOmP" role="lGtFl" />
         </node>
         <node concept="312cEg" id="6HYISdmZHUe" role="jymVt">
           <property role="TrG5h" value="m1" />
@@ -1682,8 +1687,8 @@
           </node>
         </node>
       </node>
-      <node concept="37vLTw" id="6HYISdmPMZs" role="XTmDk">
-        <ref role="3cqZAo" node="6HYISdmODCU" resolve="y" />
+      <node concept="37vLTw" id="6HYISdnvsAO" role="XTmDk">
+        <ref role="3cqZAo" node="6HYISdnj7Z2" resolve="i" />
       </node>
     </node>
     <node concept="fvRDn" id="6HYISdmODDO" role="fvpt9">
@@ -1693,9 +1698,6 @@
         <property role="2bfB8j" value="true" />
         <node concept="3Tm1VV" id="6HYISdmODDQ" role="1B3o_S" />
       </node>
-      <node concept="37vLTw" id="6HYISdmPMZt" role="XTmDk">
-        <ref role="3cqZAo" node="6HYISdmODCU" resolve="y" />
-      </node>
     </node>
     <node concept="1JQgXy" id="6HYISdm0jc3" role="fp67S">
       <property role="TrG5h" value="First" />
@@ -1703,37 +1705,23 @@
         <ref role="fvpiM" node="6HYISdm18FV" resolve="A" />
       </node>
       <node concept="3clFbS" id="6HYISdm0jc5" role="3clF48">
-        <node concept="3cpWs8" id="6HYISdmSisY" role="3cqZAp">
-          <node concept="3cpWsn" id="6HYISdmSit1" role="3cpWs9">
-            <property role="TrG5h" value="x" />
-            <node concept="10Oyi0" id="6HYISdmSisW" role="1tU5fm" />
-            <node concept="YIVIu" id="6HYISdmSity" role="33vP2m">
-              <ref role="YINz_" node="6HYISdm18FV" resolve="A" />
-              <ref role="3cqZAo" node="6HYISdmODCU" resolve="y" />
+        <node concept="3cpWs8" id="6HYISdnj7YZ" role="3cqZAp">
+          <node concept="3cpWsn" id="6HYISdnj7Z2" role="3cpWs9">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="6HYISdnj7YY" role="1tU5fm" />
+            <node concept="3cmrfG" id="6HYISdnj7Zh" role="33vP2m">
+              <property role="3cmrfH" value="1" />
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="6HYISdmODCR" role="3cqZAp">
-          <node concept="3cpWsn" id="6HYISdmODCU" role="3cpWs9">
-            <property role="TrG5h" value="y" />
-            <node concept="10Oyi0" id="6HYISdmODCP" role="1tU5fm" />
-            <node concept="3cmrfG" id="6HYISdmODDn" role="33vP2m">
-              <property role="3cmrfH" value="2" />
-            </node>
+        <node concept="3cpWs6" id="6HYISdnvs_h" role="3cqZAp">
+          <node concept="37vLTw" id="6HYISdnvs_w" role="3cqZAk">
+            <ref role="3cqZAo" node="6HYISdnj7Z2" resolve="i" />
           </node>
         </node>
-        <node concept="3cpWs6" id="6HYISdmPMob" role="3cqZAp">
-          <node concept="37vLTw" id="6HYISdmPN9V" role="3cqZAk">
-            <ref role="3cqZAo" node="6HYISdmODBe" resolve="x" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="6HYISdmRQcv" role="3cqZAp" />
       </node>
-      <node concept="fvpiP" id="6HYISdmDKW7" role="2WBDq$">
+      <node concept="fvpiP" id="6HYISdnouDH" role="2WBDq$">
         <ref role="fvpiM" node="6HYISdm18FV" resolve="A" />
-      </node>
-      <node concept="fvpiP" id="6HYISdmODEr" role="2WBDq$">
-        <ref role="fvpiM" node="6HYISdmODDO" resolve="B" />
       </node>
     </node>
   </node>

@@ -502,5 +502,9 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="6HYISdnpuik">
+    <property role="3GE5qa" value="Party" />
+    <ref role="1M2myG" to="nxdh:3iGtkSVOKWp" resolve="PartyDeclaration" />
+  </node>
 </model>
 
