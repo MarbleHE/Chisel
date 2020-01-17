@@ -8,6 +8,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="false">93166633-f1f2-4524-828b-4a3217f78bab(Matrix.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:7a03b507-1420-45c7-889b-008d17ae6c16:ChiselLang" version="0" />
@@ -20,6 +21,7 @@
   <dependencyVersions>
     <module reference="d0930ac7-4b6b-4d06-bc44-213b52016f72(ChiselLanguage.sandbox)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
+    <module reference="93166633-f1f2-4524-828b-4a3217f78bab(Matrix.runtime)" version="0" />
   </dependencyVersions>
 </solution>
 

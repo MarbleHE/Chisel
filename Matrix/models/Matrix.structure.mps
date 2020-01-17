@@ -43,8 +43,8 @@
   <node concept="1TIwiD" id="6HYISdm3_Sf">
     <property role="EcuMT" value="7745834581882723855" />
     <property role="TrG5h" value="MatrixDeclaration" />
-    <property role="34LRSv" value="matrix" />
     <property role="3GE5qa" value="Matrix" />
+    <property role="34LRSv" value="{" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="6HYISdm3_Sl" role="1TKVEi">
       <property role="IQ2ns" value="7745834581882723861" />

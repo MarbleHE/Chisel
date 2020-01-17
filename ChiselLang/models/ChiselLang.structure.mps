@@ -33,6 +33,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -144,41 +145,24 @@
     <property role="EcuMT" value="3795537564837995003" />
     <property role="TrG5h" value="PartyReference" />
     <property role="3GE5qa" value="Party" />
-    <property role="34LRSv" value="partyRef" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <property role="R4oN_" value="party reference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3iGtkSVOu7W" role="1TKVEi">
       <property role="IQ2ns" value="3795537564837995004" />
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3iGtkSVOKWp" resolve="PartyDeclaration" />
     </node>
-    <node concept="PrWs8" id="1d_MXee38wY" role="PzmwI">
-      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3iGtkSVOKWp">
     <property role="EcuMT" value="3795537564838072089" />
     <property role="TrG5h" value="PartyDeclaration" />
-    <property role="34LRSv" value="party" />
     <property role="3GE5qa" value="Party" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
     <node concept="1TJgyi" id="6HYISdlHZaM" role="1TKVEl">
       <property role="IQ2nx" value="7745834581877060274" />
       <property role="TrG5h" value="trustLevel" />
       <ref role="AX2Wp" node="6HYISdlY1nJ" resolve="CorrectnessTrustLevel" />
-    </node>
-    <node concept="PrWs8" id="3iGtkSVOKWq" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="6HYISdlKXnX" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-    <node concept="1TJgyj" id="6HYISdlHZaA" role="1TKVEi">
-      <property role="IQ2ns" value="7745834581877060262" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="class" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6HYISdlZqjB" resolve="MyClassConcept" />
     </node>
     <node concept="1TJgyj" id="6HYISdmAX7n" role="1TKVEi">
       <property role="IQ2ns" value="7745834581891994071" />
@@ -267,7 +251,8 @@
   </node>
   <node concept="1TIwiD" id="6HYISdlLg0t">
     <property role="EcuMT" value="7745834581877915677" />
-    <property role="TrG5h" value="DataReference" />
+    <property role="TrG5h" value="ResultReference" />
+    <property role="3GE5qa" value="Party" />
     <ref role="1TJDcQ" to="tpee:fz7vLUo" resolve="VariableReference" />
     <node concept="1TJgyj" id="6HYISdlLodA" role="1TKVEi">
       <property role="IQ2ns" value="7745834581877949286" />
@@ -279,8 +264,8 @@
       <property role="IQ2ns" value="7745834581877949288" />
       <property role="20kJfa" value="dataDeclaration" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
       <ref role="20ksaX" to="tpee:fzcqZ_w" resolve="variableDeclaration" />
+      <ref role="20lvS9" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
     </node>
   </node>
   <node concept="25R3W" id="6HYISdlY1nJ">
@@ -301,12 +286,6 @@
       <property role="3tVfz5" value="7745834581881263601" />
       <property role="TrG5h" value="malicious" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="6HYISdlZqjB">
-    <property role="EcuMT" value="7745834581881627879" />
-    <property role="TrG5h" value="MyClassConcept" />
-    <property role="3GE5qa" value="Computation" />
-    <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
   </node>
   <node concept="1TIwiD" id="6HYISdniL07">
     <property role="EcuMT" value="7745834581903478791" />
