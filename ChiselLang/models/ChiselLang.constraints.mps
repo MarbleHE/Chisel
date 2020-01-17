@@ -155,7 +155,7 @@
   </registry>
   <node concept="1M2fIO" id="74tJDeaQXNg">
     <property role="3GE5qa" value="Party" />
-    <ref role="1M2myG" to="nxdh:3iGtkSVOu7V" resolve="PartyRef" />
+    <ref role="1M2myG" to="nxdh:3iGtkSVOu7V" resolve="PartyReference" />
     <node concept="1N5Pfh" id="74tJDeaVV_C" role="1Mr941">
       <ref role="1N5Vy1" to="nxdh:3iGtkSVOu7W" resolve="ref" />
       <node concept="3dgokm" id="74tJDeaVVHu" role="1N6uqs">
@@ -375,7 +375,7 @@
   <node concept="1M2fIO" id="6HYISdlLoR4">
     <ref role="1M2myG" to="nxdh:6HYISdlLg0t" resolve="DataReference" />
     <node concept="1N5Pfh" id="6HYISdlLpkR" role="1Mr941">
-      <ref role="1N5Vy1" to="nxdh:6HYISdlLodC" resolve="dataDeclaration" />
+      <ref role="1N5Vy1" to="nxdh:6HYISdlLodC" resolve="dataDeclara" />
       <node concept="3dgokm" id="6HYISdlPZa0" role="1N6uqs">
         <node concept="3clFbS" id="6HYISdlPZa1" role="2VODD2">
           <node concept="3cpWs8" id="6HYISdlR5qO" role="3cqZAp">

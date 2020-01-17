@@ -593,7 +593,7 @@
     </node>
     <node concept="1YaCAy" id="6HYISdmxb3B" role="1YuTPh">
       <property role="TrG5h" value="myMatrixDeclaration" />
-      <ref role="1YaFvo" to="4vy6:6HYISdm3_Sf" resolve="MyMatrixDeclaration" />
+      <ref role="1YaFvo" to="4vy6:6HYISdm3_Sf" resolve="MatrixDeclaration" />
     </node>
   </node>
   <node concept="312cEu" id="6HYISdm85Q8">

@@ -74,7 +74,7 @@
   </node>
   <node concept="24kQdi" id="6HYISdm3_Te">
     <property role="3GE5qa" value="Matrix" />
-    <ref role="1XX52x" to="4vy6:6HYISdm3_Sf" resolve="MyMatrixDeclaration" />
+    <ref role="1XX52x" to="4vy6:6HYISdm3_Sf" resolve="MatrixDeclaration" />
     <node concept="3EZMnI" id="6HYISdm3_Tg" role="2wV5jI">
       <node concept="3F2HdR" id="6HYISdm3_Tx" role="3EZMnx">
         <ref role="1NtTu8" to="4vy6:6HYISdm3_Sl" resolve="rows" />
@@ -106,31 +106,6 @@
       </node>
       <node concept="3F1sOY" id="4blu3Dyq4pk" role="3EZMnx">
         <ref role="1NtTu8" to="4vy6:6HYISdm7Q5F" resolve="dataType" />
-      </node>
-      <node concept="3F0ifn" id="4blu3Dyq4pR" role="3EZMnx">
-        <property role="3F0ifm" value="," />
-        <node concept="11L4FC" id="4blu3Dyq4pS" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="4blu3Dyq4pv" role="3EZMnx">
-        <property role="1O74Pk" value="true" />
-        <property role="1$x2rV" value="?" />
-        <ref role="1NtTu8" to="4vy6:6HYISdm7Q5A" resolve="rows" />
-      </node>
-      <node concept="3F0ifn" id="4blu3Dyq4pu" role="3EZMnx">
-        <property role="3F0ifm" value="x" />
-        <node concept="11L4FC" id="4blu3Dyq4pU" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="11LMrY" id="4blu3Dyq4pW" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="4blu3Dyq4pw" role="3EZMnx">
-        <property role="1O74Pk" value="true" />
-        <property role="1$x2rV" value="?" />
-        <ref role="1NtTu8" to="4vy6:6HYISdm7Q5C" resolve="columns" />
       </node>
       <node concept="3F0ifn" id="4blu3Dyq3Rl" role="3EZMnx">
         <property role="3F0ifm" value="&gt;" />

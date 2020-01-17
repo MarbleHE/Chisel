@@ -28,15 +28,23 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
+      </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
+        <child id="5680397130376446158" name="type" index="1tU5fm" />
+      </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
+        <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
@@ -60,6 +68,12 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
+        <child id="1180636770616" name="createdType" index="3zrR0E" />
+      </concept>
+      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
+        <reference id="1138405853777" name="concept" index="ehGHo" />
+      </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -109,6 +123,37 @@
     </node>
     <node concept="13hLZK" id="6HYISdmde8T" role="13h7CW">
       <node concept="3clFbS" id="6HYISdmde8U" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6HYISdnvSg5">
+    <property role="3GE5qa" value="Matrix" />
+    <ref role="13h7C2" to="4vy6:6HYISdm3_Sf" resolve="MatrixDeclaration" />
+    <node concept="13i0hz" id="6HYISdnvSgg" role="13h7CS">
+      <property role="TrG5h" value="mul" />
+      <node concept="37vLTG" id="6HYISdnvSgV" role="3clF46">
+        <property role="TrG5h" value="m2" />
+        <node concept="3Tqbb2" id="6HYISdnvSh9" role="1tU5fm">
+          <ref role="ehGHo" to="4vy6:6HYISdm6q8k" resolve="MatrixType" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6HYISdnvSgh" role="1B3o_S" />
+      <node concept="3Tqbb2" id="6HYISdnvSgw" role="3clF45">
+        <ref role="ehGHo" to="4vy6:6HYISdm6q8k" resolve="MatrixType" />
+      </node>
+      <node concept="3clFbS" id="6HYISdnvSgj" role="3clF47">
+        <node concept="3cpWs6" id="6HYISdnw0TD" role="3cqZAp">
+          <node concept="2ShNRf" id="6HYISdnw0TK" role="3cqZAk">
+            <node concept="3zrR0B" id="6HYISdnw10C" role="2ShVmc">
+              <node concept="3Tqbb2" id="6HYISdnw10E" role="3zrR0E">
+                <ref role="ehGHo" to="4vy6:6HYISdm6q8k" resolve="MatrixType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="6HYISdnvSg6" role="13h7CW">
+      <node concept="3clFbS" id="6HYISdnvSg7" role="2VODD2" />
     </node>
   </node>
 </model>

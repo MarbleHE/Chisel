@@ -372,7 +372,7 @@
   </node>
   <node concept="24kQdi" id="3iGtkSVOEdk">
     <property role="3GE5qa" value="Party" />
-    <ref role="1XX52x" to="nxdh:3iGtkSVOu7V" resolve="PartyRef" />
+    <ref role="1XX52x" to="nxdh:3iGtkSVOu7V" resolve="PartyReference" />
     <node concept="3EZMnI" id="3iGtkSVOEdm" role="2wV5jI">
       <node concept="1iCGBv" id="3iGtkSVOEdt" role="3EZMnx">
         <ref role="1NtTu8" to="nxdh:3iGtkSVOu7W" resolve="ref" />
@@ -563,7 +563,7 @@
         <node concept="l2Vlx" id="4ZFm$8SR7xt" role="2iSdaV" />
         <node concept="1iCGBv" id="fPFlXsb" role="3EZMnx">
           <property role="1$x2rV" value="&lt;no data&gt;" />
-          <ref role="1NtTu8" to="nxdh:6HYISdlLodC" resolve="dataDeclaration" />
+          <ref role="1NtTu8" to="nxdh:6HYISdlLodC" resolve="dataDeclara" />
           <node concept="1sVBvm" id="fPFlXsc" role="1sWHZn">
             <node concept="3F0A7n" id="fPFlXsd" role="2wV5jI">
               <property role="1Intyy" value="true" />

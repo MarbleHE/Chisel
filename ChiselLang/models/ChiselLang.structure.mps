@@ -79,14 +79,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="computationParties" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="3iGtkSVOu7V" resolve="PartyRef" />
+      <ref role="20lvS9" node="3iGtkSVOu7V" resolve="PartyReference" />
     </node>
     <node concept="1TJgyj" id="6VuGevig2p3" role="1TKVEi">
       <property role="IQ2ns" value="7989017298713192003" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="resultParties" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3iGtkSVOu7V" resolve="PartyRef" />
+      <ref role="20lvS9" node="3iGtkSVOu7V" resolve="PartyReference" />
     </node>
     <node concept="1TJgyj" id="fzclF7Z" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -142,14 +142,18 @@
   </node>
   <node concept="1TIwiD" id="3iGtkSVOu7V">
     <property role="EcuMT" value="3795537564837995003" />
-    <property role="TrG5h" value="PartyRef" />
+    <property role="TrG5h" value="PartyReference" />
     <property role="3GE5qa" value="Party" />
+    <property role="34LRSv" value="partyRef" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="3iGtkSVOu7W" role="1TKVEi">
       <property role="IQ2ns" value="3795537564837995004" />
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3iGtkSVOKWp" resolve="PartyDeclaration" />
+    </node>
+    <node concept="PrWs8" id="1d_MXee38wY" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
     </node>
   </node>
   <node concept="1TIwiD" id="3iGtkSVOKWp">
@@ -188,7 +192,6 @@
     <property role="EcuMT" value="9136968075514769230" />
     <property role="3GE5qa" value="Party" />
     <property role="TrG5h" value="PartyType" />
-    <property role="34LRSv" value="party" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
   </node>
   <node concept="1TIwiD" id="7MGcVSewxWA">
