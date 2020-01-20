@@ -104,17 +104,5 @@
       <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6HYISdnvSzb">
-    <property role="EcuMT" value="7745834581906917579" />
-    <property role="3GE5qa" value="Matrix" />
-    <property role="TrG5h" value="MatrixReference" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="6HYISdnvSzc" role="1TKVEi">
-      <property role="IQ2ns" value="7745834581906917580" />
-      <property role="20kJfa" value="ref" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6HYISdm3_Sf" resolve="MatrixDeclaration" />
-    </node>
-  </node>
 </model>
 

@@ -96,11 +96,11 @@
       <property role="IQ2ns" value="1068580123135" />
       <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
     </node>
-    <node concept="PrWs8" id="74tJDeb1q8b" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
     <node concept="PrWs8" id="w4TlE3BMpG" role="PzmwI">
       <ref role="PrY4T" to="tpee:i2fhoOR" resolve="IMethodLike" />
+    </node>
+    <node concept="PrWs8" id="1d_MXefdg5s" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
     <node concept="1TJgyi" id="6VuGeviuKh1" role="1TKVEl">
       <property role="IQ2nx" value="7989017298717049921" />
@@ -275,7 +275,7 @@
     <ref role="1H5jkz" node="6HYISdlY1nK" resolve="semiHonest" />
     <node concept="25R33" id="6HYISdlY1nO" role="25R1y">
       <property role="3tVfz5" value="7745834581881263604" />
-      <property role="TrG5h" value="honest" />
+      <property role="TrG5h" value="trusted" />
     </node>
     <node concept="25R33" id="6HYISdlY1nK" role="25R1y">
       <property role="3tVfz5" value="7745834581881263600" />
