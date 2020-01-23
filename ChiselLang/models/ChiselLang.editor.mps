@@ -848,7 +848,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6HYISdniL0L">
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="Annotations" />
     <ref role="1XX52x" to="nxdh:6HYISdniL07" resolve="SecretAnnotation" />
     <node concept="3EZMnI" id="6HYISdniL14" role="2wV5jI">
       <node concept="3F0ifn" id="6HYISdniL18" role="3EZMnx">
@@ -1851,6 +1851,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7kyJ7qbDb8l">
+    <property role="3GE5qa" value="Annotations" />
     <ref role="1XX52x" to="nxdh:7kyJ7qbDb7J" resolve="EncryptedAnnotation" />
     <node concept="3EZMnI" id="7kyJ7qbDb8n" role="2wV5jI">
       <node concept="3F0ifn" id="7kyJ7qbDb8o" role="3EZMnx">
@@ -1862,6 +1863,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7kyJ7qbGYLu">
+    <property role="3GE5qa" value="Annotations" />
     <ref role="1XX52x" to="nxdh:7kyJ7qbGYKZ" resolve="DecryptedAnnotation" />
     <node concept="3EZMnI" id="7kyJ7qbGYLw" role="2wV5jI">
       <node concept="3F0ifn" id="7kyJ7qbGYLx" role="3EZMnx">
