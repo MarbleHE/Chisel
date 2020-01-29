@@ -112,6 +112,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
+        <property id="779128492853934523" name="cellId" index="1K8rM7" />
+      </concept>
     </language>
     <language id="7a03b507-1420-45c7-889b-008d17ae6c16" name="ChiselLang">
       <concept id="3795537564837352627" name="ChiselLang.structure.Protocol" flags="ng" index="fp67X">
@@ -1280,6 +1283,9 @@
       <node concept="37vLTw" id="7kyJ7qfarxw" role="XTmDk">
         <ref role="3cqZAo" node="7kyJ7qfarvk" resolve="i" />
       </node>
+      <node concept="1KehLL" id="7kyJ7qfkcI6" role="lGtFl">
+        <property role="1K8rM7" value="Constant_ijh4mk_g0" />
+      </node>
     </node>
     <node concept="1JQgXy" id="7kyJ7qdhVQx" role="fp67S">
       <property role="TrG5h" value="MyComp" />
@@ -1371,6 +1377,30 @@
       </node>
       <node concept="3YQ1CR" id="7kyJ7qf0IbT" role="1JQgXx">
         <ref role="fvpiM" node="7kyJ7qdhVTl" resolve="E_Party" />
+      </node>
+    </node>
+    <node concept="1JQgXy" id="7kyJ7qfkcAn" role="fp67S">
+      <property role="TrG5h" value="Hello" />
+      <property role="2WDriA" value="true" />
+      <node concept="3clFbS" id="7kyJ7qfkcAo" role="3clF48">
+        <node concept="3cpWs8" id="7kyJ7qfkcEW" role="3cqZAp">
+          <node concept="3cpWsn" id="7kyJ7qfkcEZ" role="3cpWs9">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="7kyJ7qfkcEV" role="1tU5fm" />
+            <node concept="10M0yZ" id="7kyJ7qfkcGe" role="33vP2m">
+              <ref role="3cqZAo" node="7kyJ7qf8zW9" resolve="e" />
+              <ref role="1PxDUh" node="7kyJ7qdhVTl" resolve="E_Party" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3YS3to" id="7kyJ7qfkcHC" role="1JQgXx">
+        <node concept="3YQ1CR" id="7kyJ7qfkcHE" role="3YS3st">
+          <ref role="fvpiM" node="7kyJ7qfcbFO" resolve="D_Party" />
+        </node>
+        <node concept="3YQ1CR" id="7kyJ7qfkcHF" role="3YS3st">
+          <ref role="fvpiM" node="7kyJ7qdhVTl" resolve="E_Party" />
+        </node>
       </node>
     </node>
   </node>

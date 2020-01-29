@@ -693,7 +693,11 @@
     <node concept="3EZMnI" id="1d_MXef5Q_R" role="2wV5jI">
       <node concept="l2Vlx" id="1d_MXef5Q_S" role="2iSdaV" />
       <node concept="3F0ifn" id="1d_MXef5Q_V" role="3EZMnx">
-        <property role="3F0ifm" value="Res Ref(" />
+        <property role="3F0ifm" value="Result Reference" />
+        <ref role="1k5W1q" node="1d_MXefnvuj" resolve="ChangeableContent" />
+      </node>
+      <node concept="3F0ifn" id="7kyJ7qflSq$" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
       </node>
       <node concept="1iCGBv" id="1d_MXef5QA0" role="3EZMnx">
         <ref role="1NtTu8" to="nxdh:6HYISdlLodA" resolve="party" />
@@ -705,7 +709,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="1d_MXef5QAm" role="3EZMnx">
-        <property role="3F0ifm" value=", " />
+        <property role="3F0ifm" value="," />
       </node>
       <node concept="1iCGBv" id="1d_MXef5QA$" role="3EZMnx">
         <ref role="1NtTu8" to="nxdh:6HYISdlLodC" resolve="dataDeclaration" />
