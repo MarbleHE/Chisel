@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:feffba15-9d09-4930-aba2-b4e39cd2b67a(ChiselLanguage.sandbox)">
+<model ref="r:feffba15-9d09-4930-aba2-b4e39cd2b67a(ChiselLang.sandbox)">
   <persistence version="9" />
   <languages>
     <use id="7a03b507-1420-45c7-889b-008d17ae6c16" name="ChiselLang" version="-1" />

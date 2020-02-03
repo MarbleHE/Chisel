@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="ChiselLanguage.sandbox" uuid="d0930ac7-4b6b-4d06-bc44-213b52016f72" moduleVersion="0" compileInMPS="true">
+<solution name="ChiselLang.sandbox" uuid="d0930ac7-4b6b-4d06-bc44-213b52016f72" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -22,7 +22,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-    <module reference="d0930ac7-4b6b-4d06-bc44-213b52016f72(ChiselLanguage.sandbox)" version="0" />
+    <module reference="d0930ac7-4b6b-4d06-bc44-213b52016f72(ChiselLang.sandbox)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
