@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/ChiselLang/ChiselLang.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/ChiselLanguage/sandbox/ChiselLang.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Matrix/Matrix.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Matrix/sandbox/Matrix.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Matrix.runtime/Matrix.runtime.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
