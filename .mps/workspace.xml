@@ -80,10 +80,28 @@
     </breakpoint>
     <breakpoint kind="JAVA_LINE_BREAKPOINT">
       <JavaBreakpointInfo>
+        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1397747368865845238" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1581004902562" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
         <option name="location" value="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)/1213877501651" />
         <option name="mySuspendPolicy" value="2" />
         <option name="myIsLogMessage" value="false" />
         <option name="myCreationTime" value="1579772755844" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1809470990891353478" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1581000468626" />
         <option name="myIsEnabled" value="true" />
       </JavaBreakpointInfo>
     </breakpoint>
@@ -143,9 +161,14 @@
     </breakpoint>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="052123af-b873-42d0-b218-c0648d2d64a5" name="Default Changelist" comment="">
+    <list default="true" id="052123af-b873-42d0-b218-c0648d2d64a5" name="Default Changelist" comment="Fixed visibility bugs. Added more quickfixes for crypto.">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.actions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.actions.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.constraints.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.intentions.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.typesystem.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -160,7 +183,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="ffe99fe2-a99f-4989-81c4-c7f862c10f65/r:e732b592-0a70-4d0d-9f57-dfa95157390e(TempModuleffe99fe2-a99f-4989-81c4-c7f862c10f65/ConsoleModel_45699187296889)">
+            <model ref="725ecb3e-d199-4caa-af8d-f346aedb0122/r:33a9e727-4f4b-46e0-9a62-f19d3c839342(TempModule725ecb3e-d199-4caa-af8d-f346aedb0122/ConsoleModel_68309659417053)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -180,11 +203,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2mSRcW1EY_f">
-                <node concept="3balQm" id="2mSRcW1EY_g" role="aymYE" />
-                <node concept="2Clz$F" id="2mSRcW1EY_h" role="aymYO" />
-                <node concept="2_V_lH" id="2mSRcW1EY_i" role="1PhJh3">
-                  <ref role="2_V_lI" node="2mSRcW1EY_h" resolve="CommandHolder" />
+              <node concept="aymSD" id="2mSRcW30UKF">
+                <node concept="3balQm" id="2mSRcW30UKG" role="aymYE" />
+                <node concept="2Clz$F" id="2mSRcW30UKH" role="aymYO" />
+                <node concept="2_V_lH" id="2mSRcW30UKI" role="1PhJh3">
+                  <ref role="2_V_lI" node="2mSRcW30UKH" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -316,7 +339,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="FileSystem">
         <subPane>
           <expand>
@@ -348,33 +370,15 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.editor.mps]" />
+              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Party" />
+              <option name="myItemId" value="CheckStatic" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PartyReference" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Party" />
+              <option name="myItemId" value="QuickFixes" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,7 +392,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.editor.mps]" />
+              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Computation" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,11 +406,77 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="11d54d75-7cb6-4f8f-8e4d-daa2df3a0a0b" />
+              <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Matrix" />
+              <option name="myItemId" value="ChiselLang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:feffba15-9d09-4930-aba2-b4e39cd2b67a(ChiselLang.sandbox) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c920869d-c725-452f-883d-9b09f56b97bb(ChiselLang.intentions) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.intentions.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Annotations" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,39 +504,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ChiselLang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="baseLanguage" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="515552c7-fcc0-4ab4-9789-2f3c49344e85(jetbrains.mps.baseLanguage.varVariable)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,39 +522,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.editor.mps]" />
+              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Computation" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChiselLang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:feffba15-9d09-4930-aba2-b4e39cd2b67a(ChiselLang.sandbox) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps]" />
+              <option name="myItemId" value="CheckStatic" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -524,24 +542,6 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="baseLanguage" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -550,7 +550,15 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
+              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Computation" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QuickFixes" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -559,44 +567,12 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemId" value="11d54d75-7cb6-4f8f-8e4d-daa2df3a0a0b" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="baseLanguage" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="515552c7-fcc0-4ab4-9789-2f3c49344e85(jetbrains.mps.baseLanguage.varVariable)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:931e38db-856b-4b95-8ae0-a7cd13da6d32(jetbrains.mps.baseLanguage.varVariable.structure) in IdeaFile[jar:///Applications/MPS 2019.2.app/Contents/languages/baseLanguage/jetbrains.mps.baseLanguage.varVariable-src.jar!/module/languageModels/structure.mpb]" />
+              <option name="myItemId" value="Matrix" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -611,16 +587,6 @@
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
@@ -633,22 +599,37 @@
               <option name="myItemId" value="ChiselLang" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:feffba15-9d09-4930-aba2-b4e39cd2b67a(ChiselLang.sandbox) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps]" />
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2718165156763146002" />
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheckStatic" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1397747368865844065" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -727,9 +708,9 @@
           </child>
         </result_provider>
         <query>
-          <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.GlobalScope" />
+          <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.ProjectScope" />
           <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
-            <node ref="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)/1196350785112" title="Antiquotation" />
+            <node ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1070462154015" title="StaticFieldDeclaration" />
           </holder>
         </query>
         <usage_view>
@@ -745,17 +726,17 @@
                 <child caption="Searched nodes" excluded="false" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
                   <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
                   <role name="category:Category" />
-                  <child caption="jetbrains.mps.lang.quotation" excluded="false" isresult="false" results_section="false" module_ref="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)">
+                  <child caption="jetbrains.mps.baseLanguage" excluded="false" isresult="false" results_section="false" module_ref="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)">
                     <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
                     <role name="module" />
-                    <child caption="jetbrains.mps.lang.quotation.structure" excluded="false" isresult="false" results_section="false">
+                    <child caption="jetbrains.mps.baseLanguage.structure" excluded="false" isresult="false" results_section="false">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="Antiquotation" info="" excluded="false" isresult="true" results_section="false" nodePtr="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)/1196350785112" isRoot="true">
+                      <child caption="StaticFieldDeclaration" info="" excluded="false" isresult="true" results_section="false" nodePtr="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1070462154015" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="target" />
                       </child>
-                      <model uid="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" />
+                      <model uid="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
                     </child>
                   </child>
                 </child>
@@ -766,277 +747,59 @@
                 <child caption="Node Usages" excluded="false" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
                   <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
                   <role name="category:Category" />
-                  <child caption="jetbrains.mps.lang.quotation" excluded="false" isresult="false" results_section="true" module_ref="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)">
+                  <child caption="ChiselLang" excluded="false" isresult="false" results_section="true" module_ref="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)">
                     <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
                     <role name="module" />
-                    <child caption="jetbrains.mps.lang.quotation.behavior" excluded="false" isresult="false" results_section="true">
+                    <child caption="ChiselLang.structure" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="Antiquotation_Behavior" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:1dca5eee-6e62-48f8-9e94-dbbe31be2456(jetbrains.mps.lang.quotation.behavior)/1262430001741717386" isRoot="true">
+                      <child caption="MyStaticFieldDeclaration" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure)/2718165156770861341" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="target" />
                       </child>
-                      <model uid="r:1dca5eee-6e62-48f8-9e94-dbbe31be2456(jetbrains.mps.lang.quotation.behavior)" />
+                      <model uid="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure)" />
                     </child>
-                    <child caption="jetbrains.mps.lang.quotation.editor" excluded="false" isresult="false" results_section="true">
+                    <child caption="ChiselLang.editor" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="Antiquotation_Editor" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c89590349(jetbrains.mps.lang.quotation.editor)/1196350915488" isRoot="true">
+                      <child caption="StaticFieldDeclaration_noVisibility_Editor" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor)/1397747368865177104" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="target" />
                       </child>
-                      <child caption="_CreateAntiquotationKeyMap" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c89590349(jetbrains.mps.lang.quotation.editor)/1196350915740" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c89590349(jetbrains.mps.lang.quotation.editor)/8843103228116876458">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                        <child caption="Antiquotation" info="(role: conceptArgument in: isInstanceOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c89590349(jetbrains.mps.lang.quotation.editor)/1196350915778">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                        <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c89590349(jetbrains.mps.lang.quotation.editor)/8843103228116876483">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                        <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c89590349(jetbrains.mps.lang.quotation.editor)/8843103228116876522">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                        <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c89590349(jetbrains.mps.lang.quotation.editor)/3071170492188517683">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                      </child>
-                      <model uid="r:00000000-0000-4000-0000-011c89590349(jetbrains.mps.lang.quotation.editor)" />
+                      <model uid="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor)" />
                     </child>
-                    <child caption="jetbrains.mps.lang.quotation.intentions" excluded="false" isresult="false" results_section="true">
+                    <child caption="ChiselLang.typesystem" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="CreateAntiquotation" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/1227885451240" isRoot="true">
+                      <child caption="checkDeclarations_PartyDeclaration" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/7745834581880015389" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/8843103228116911945">
+                        <child caption="node&lt;StaticFieldDeclaration&gt;" info="(role: classType in: instanceof)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1397747368857009364">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="target" />
                         </child>
-                        <child caption="Antiquotation" info="(role: conceptArgument in: isInstanceOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/1227886102845">
+                      </child>
+                      <child caption="checkMyStatic_StaticFieldDeclaration" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156770941208" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="staticFieldDeclaration" info="(role: applicableNode in: checkMyStatic_StaticFieldDeclaration)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156770941213">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="target" />
                         </child>
-                        <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/8843103228116911962">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                        <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/3071170492188517989">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                        <child caption="antiquotation" info="(role: localVariableDeclaration in: &lt;type&gt; &lt;var&gt;;)" excluded="false" isresult="false" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/91680102684962151">
+                      </child>
+                      <child caption="makeFieldMyStatic" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156770942416" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="fieldDecl" info="(role: quickFixArgument in: makeFieldMyStatic)" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156770942507">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="root to target" />
-                          <child caption="node&lt;Antiquotation&gt;" info="(role: type in: antiquotation)" excluded="false" isresult="true" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/91680102684962149">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                          <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/8843103228116911999">
+                          <child caption="node&lt;StaticFieldDeclaration&gt;" info="(role: argumentType in: fieldDecl)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156770942508">
                             <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                             <role name="target" />
                           </child>
                         </child>
                       </child>
-                      <child caption="QuotationConverter" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/8182547171709991160" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="convert():node&lt;Expression&gt;" info="(role: member in: QuotationConverter)" excluded="false" isresult="false" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/8182547171709991177">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="root to target" />
-                          <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/4019250687107485302">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                        </child>
-                        <child caption="convertChildLink(SContainmentLink,list&lt;node&lt;&gt;&gt;):sequence&lt;node&lt;NodeBuilderInitLink&gt;&gt;" info="(role: member in: QuotationConverter)" excluded="false" isresult="false" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/4019250687106996723">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="root to target" />
-                          <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/4019250687109025848">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                          <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)/4019250687109006653">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                        </child>
-                      </child>
-                      <model uid="r:f4b34c7d-c02f-43b9-b6e7-feff8966461c(jetbrains.mps.lang.quotation.intentions)" />
-                    </child>
-                    <child caption="jetbrains.mps.lang.quotation.typesystem" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="check_Antiquotation" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034a(jetbrains.mps.lang.quotation.typesystem)/1202840492692" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="antiquotation" info="(role: applicableNode in: check_Antiquotation)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034a(jetbrains.mps.lang.quotation.typesystem)/1202840495508">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                      </child>
-                      <child caption="typeof_Antiquotation" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034a(jetbrains.mps.lang.quotation.typesystem)/1196863835659" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="nodeToCheck" info="(role: applicableNode in: typeof_Antiquotation)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034a(jetbrains.mps.lang.quotation.typesystem)/1196863835661">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                      </child>
-                      <model uid="r:00000000-0000-4000-0000-011c8959034a(jetbrains.mps.lang.quotation.typesystem)" />
-                    </child>
-                  </child>
-                  <child caption="jetbrains.mps.lang.migration" excluded="false" isresult="false" results_section="true" module_ref="90746344-04fd-4286-97d5-b46ae6a81709(jetbrains.mps.lang.migration)">
-                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
-                    <role name="module" />
-                    <child caption="jetbrains.mps.lang.migration.behavior" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="QuotationConsequence_Behavior" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:306236c1-379e-4cee-b600-470a90233e2f(jetbrains.mps.lang.migration.behavior)/5629622023958555125" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="isMyAntiquotationExpression(node&lt;Expression&gt;):boolean" info="(role: method in: QuotationConsequence_Behavior)" excluded="false" isresult="false" results_section="true" nodePtr="r:306236c1-379e-4cee-b600-470a90233e2f(jetbrains.mps.lang.migration.behavior)/5629622023958555136">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="root to target" />
-                          <child caption="Antiquotation" info="(role: conceptArgument in: isInstanceOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:306236c1-379e-4cee-b600-470a90233e2f(jetbrains.mps.lang.migration.behavior)/5629622023958638907">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                        </child>
-                      </child>
-                      <model uid="r:306236c1-379e-4cee-b600-470a90233e2f(jetbrains.mps.lang.migration.behavior)" />
-                    </child>
-                  </child>
-                  <child caption="jetbrains.mps.lang.quotation#1196351859310" excluded="false" isresult="false" results_section="true" module_ref="b736a816-59a2-4796-a8e6-372fc0a096ce(jetbrains.mps.lang.quotation#1196351859310)">
-                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
-                    <role name="module" />
-                    <child caption="jetbrains.mps.lang.quotation.generator.baseLanguage.template.main@generator" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="Quotation_to_staticMethodCall" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034c(jetbrains.mps.lang.quotation.generator.baseLanguage.template.main@generator)/1025590056396628814" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="_quotation_createNode(Object):node&lt;&gt;" info="(role: method in: extract static method)" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034c(jetbrains.mps.lang.quotation.generator.baseLanguage.template.main@generator)/1025590056396661196">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="root to target" />
-                          <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034c(jetbrains.mps.lang.quotation.generator.baseLanguage.template.main@generator)/1025590056396681444">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                        </child>
-                      </child>
-                      <child caption="QuotedNode_to_statementList" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034c(jetbrains.mps.lang.quotation.generator.baseLanguage.template.main@generator)/1196351886726" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="method(Object):void" info="(role: contentNode in: QuotedNode_to_statementList)" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034c(jetbrains.mps.lang.quotation.generator.baseLanguage.template.main@generator)/1196351886727">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="root to target" />
-                          <child caption="Antiquotation" info="(role: conceptArgument in: isInstanceOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034c(jetbrains.mps.lang.quotation.generator.baseLanguage.template.main@generator)/1196351887189">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                          <child caption="antiquotation" info="(role: localVariableDeclaration in: &lt;type&gt; &lt;var&gt;;)" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034c(jetbrains.mps.lang.quotation.generator.baseLanguage.template.main@generator)/1196351887213">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="root to target" />
-                            <child caption="node&lt;Antiquotation&gt;" info="(role: type in: antiquotation)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034c(jetbrains.mps.lang.quotation.generator.baseLanguage.template.main@generator)/1196351887214">
-                              <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                              <role name="target" />
-                            </child>
-                            <child caption="Antiquotation" info="(role: requestedConcept in: ofConcept)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034c(jetbrains.mps.lang.quotation.generator.baseLanguage.template.main@generator)/8996910361056899572">
-                              <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                              <role name="target" />
-                            </child>
-                          </child>
-                          <child caption="Antiquotation" info="(role: conceptArgument in: isInstanceOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c8959034c(jetbrains.mps.lang.quotation.generator.baseLanguage.template.main@generator)/767161977432540950">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                        </child>
-                      </child>
-                      <model uid="r:00000000-0000-4000-0000-011c8959034c(jetbrains.mps.lang.quotation.generator.baseLanguage.template.main@generator)" />
-                    </child>
-                  </child>
-                  <child caption="jetbrains.mps.baseLanguage" excluded="false" isresult="false" results_section="true" module_ref="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)">
-                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
-                    <role name="module" />
-                    <child caption="jetbrains.mps.baseLanguage.typesystem" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="ReplaceClassAntiquotationWithClassifierType" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1228302110245" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="antiquotation" info="(role: quickFixArgument in: ReplaceClassAntiquotationWithClassifierType)" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1228302217408">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="root to target" />
-                          <child caption="node&lt;Antiquotation&gt;" info="(role: argumentType in: antiquotation)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1228302224590">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                        </child>
-                      </child>
-                      <child caption="check_AntiquotationContents" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1228301715997" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="antiquotation" info="(role: applicableNode in: check_AntiquotationContents)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1228301751771">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                      </child>
-                      <model uid="r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)" />
-                    </child>
-                  </child>
-                  <child caption="jetbrains.mps.lang.pattern" excluded="false" isresult="false" results_section="true" module_ref="d4615e3b-d671-4ba9-af01-2b78369b0ba7(jetbrains.mps.lang.pattern)">
-                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
-                    <role name="module" />
-                    <child caption="jetbrains.mps.lang.pattern.editor" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="_PatternExpression_KeyMap" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c89590342(jetbrains.mps.lang.pattern.editor)/1136721133135" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c89590342(jetbrains.mps.lang.pattern.editor)/8843103228116876224">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                        <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c89590342(jetbrains.mps.lang.pattern.editor)/8843103228116876194">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                        <child caption="set new initialized" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c89590342(jetbrains.mps.lang.pattern.editor)/8843103228116876205">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                        <child caption="Antiquotation" info="(role: qualifier in: @)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c89590342(jetbrains.mps.lang.pattern.editor)/3071170492188518126">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                      </child>
-                      <model uid="r:00000000-0000-4000-0000-011c89590342(jetbrains.mps.lang.pattern.editor)" />
-                    </child>
-                  </child>
-                  <child caption="jetbrains.mps.lang.migration#3735414794051522719" excluded="false" isresult="false" results_section="true" module_ref="1500dd24-6c0b-4efb-bf73-cc8384a27d84(jetbrains.mps.lang.migration#3735414794051522719)">
-                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
-                    <role name="module" />
-                    <child caption="jetbrains.mps.lang.migration.generator.template.main@generator" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="pattern" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:1b8e1ff1-9bb5-4fe5-848a-c2f4efdb6402(jetbrains.mps.lang.migration.generator.template.main@generator)/2664852246014130153" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="Antiquotation" info="(role: conceptArgument in: isInstanceOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:1b8e1ff1-9bb5-4fe5-848a-c2f4efdb6402(jetbrains.mps.lang.migration.generator.template.main@generator)/5629622023959010853">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                      </child>
-                      <model uid="r:1b8e1ff1-9bb5-4fe5-848a-c2f4efdb6402(jetbrains.mps.lang.migration.generator.template.main@generator)" />
+                      <model uid="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)" />
                     </child>
                   </child>
                 </child>

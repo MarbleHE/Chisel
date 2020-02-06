@@ -153,46 +153,6 @@
   <node concept="1M2fIO" id="7MGcVSezuEQ">
     <property role="3GE5qa" value="File" />
     <ref role="1M2myG" to="nxdh:7MGcVSez1Kp" resolve="FileRef" />
-    <node concept="1N5Pfh" id="7MGcVSe_3Rt" role="1Mr941">
-      <ref role="1N5Vy1" to="nxdh:7MGcVSez1Kq" resolve="ref" />
-      <node concept="3dgokm" id="7MGcVSe_3Sg" role="1N6uqs">
-        <node concept="3clFbS" id="7MGcVSe_3Si" role="2VODD2">
-          <node concept="3cpWs8" id="7MGcVSe_3TZ" role="3cqZAp">
-            <node concept="3cpWsn" id="7MGcVSe_3U0" role="3cpWs9">
-              <property role="TrG5h" value="protocol" />
-              <node concept="3Tqbb2" id="7MGcVSe_3U1" role="1tU5fm">
-                <ref role="ehGHo" to="nxdh:3iGtkSVM1iN" resolve="Protocol" />
-              </node>
-              <node concept="2OqwBi" id="7MGcVSe_3U2" role="33vP2m">
-                <node concept="2rP1CM" id="7MGcVSe_3U3" role="2Oq$k0" />
-                <node concept="2Xjw5R" id="7MGcVSe_3U4" role="2OqNvi">
-                  <node concept="1xMEDy" id="7MGcVSe_3U5" role="1xVPHs">
-                    <node concept="chp4Y" id="7MGcVSe_3U6" role="ri$Ld">
-                      <ref role="cht4Q" to="nxdh:3iGtkSVM1iN" resolve="Protocol" />
-                    </node>
-                  </node>
-                  <node concept="1xIGOp" id="7MGcVSe_3U7" role="1xVPHs" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs6" id="7MGcVSe_mkQ" role="3cqZAp">
-            <node concept="2YIFZM" id="7MGcVSe_mpU" role="3cqZAk">
-              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-              <node concept="2OqwBi" id="7MGcVSe_mDC" role="37wK5m">
-                <node concept="37vLTw" id="7MGcVSe_ms8" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7MGcVSe_3U0" resolve="protocol" />
-                </node>
-                <node concept="3Tsc0h" id="7MGcVSe_mOX" role="2OqNvi">
-                  <ref role="3TtcxE" to="nxdh:7MGcVSey_tu" resolve="errorFiles" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="1M2fIO" id="7MGcVSezQ01">
     <property role="3GE5qa" value="File" />

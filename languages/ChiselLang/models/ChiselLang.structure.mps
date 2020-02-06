@@ -128,13 +128,6 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="7Vd20Sh50tG" resolve="Computation" />
     </node>
-    <node concept="1TJgyj" id="7MGcVSey_tu" role="1TKVEi">
-      <property role="IQ2ns" value="8983612248078047070" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="errorFiles" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7MGcVSewxWA" resolve="FileDeclaration" />
-    </node>
     <node concept="PrWs8" id="3iGtkSVMbez" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -282,19 +275,6 @@
       <property role="TrG5h" value="malicious" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6HYISdniL07">
-    <property role="EcuMT" value="7745834581903478791" />
-    <property role="3GE5qa" value="Annotations" />
-    <property role="TrG5h" value="SecretAnnotation" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="M6xJ_" id="6HYISdniL08" role="lGtFl">
-      <property role="Hh88m" value="isSecret" />
-      <node concept="trNpa" id="6HYISdniL0k" role="EQaZv">
-        <ref role="trN6q" to="tpee:4k3qd$cSlJ3" resolve="BaseVariableDeclaration" />
-      </node>
-      <node concept="tn0Fv" id="6HYISdnj80x" role="HhnKV" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="7kyJ7qbDb7J">
     <property role="EcuMT" value="8440515868980720111" />
     <property role="TrG5h" value="EncryptedAnnotation" />
@@ -346,6 +326,19 @@
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3iGtkSVOKWp" resolve="PartyDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2mSRcW2aX4t">
+    <property role="EcuMT" value="2718165156770861341" />
+    <property role="TrG5h" value="MyStaticFieldDeclaration" />
+    <property role="34LRSv" value="secret static field" />
+    <property role="R4oN_" value="secret static field description" />
+    <property role="3GE5qa" value="MyStaticFieldDeclaration" />
+    <ref role="1TJDcQ" to="tpee:f$Wx3kv" resolve="StaticFieldDeclaration" />
+    <node concept="1TJgyi" id="2mSRcW2aX4B" role="1TKVEl">
+      <property role="IQ2nx" value="2718165156770861351" />
+      <property role="TrG5h" value="isSecret" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>
