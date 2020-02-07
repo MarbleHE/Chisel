@@ -10,6 +10,7 @@
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="nxdh" ref="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
@@ -129,7 +130,6 @@
         <property id="2162403111529391190" name="cellId" index="1lUG9U" />
       </concept>
       <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
-      <concept id="3308396621974580100" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Default" flags="ng" index="3p36aQ" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
@@ -377,9 +377,35 @@
     <property role="3GE5qa" value="Computation" />
     <ref role="1XX52x" to="nxdh:7Vd20Sh50tG" resolve="Computation" />
     <node concept="3EZMnI" id="7Vd20Sh9EKw" role="2wV5jI">
+      <node concept="3F0A7n" id="w4TlE3AoHC" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
       <node concept="3F0ifn" id="6VuGeviuKpo" role="3EZMnx">
         <property role="3F0ifm" value="crypto" />
         <ref role="1k5W1q" node="1d_MXefnvuj" resolve="ChangeableContent" />
+        <ref role="1ERwB7" node="2mSRcW364nS" resolve="DeleteCrypto" />
+        <node concept="VPxyj" id="2mSRcW3msIP" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+          <node concept="3nzxsE" id="2mSRcW3msIQ" role="3n$kyP">
+            <node concept="3clFbS" id="2mSRcW3msIR" role="2VODD2">
+              <node concept="3clFbF" id="2mSRcW3msIS" role="3cqZAp">
+                <node concept="3fqX7Q" id="2mSRcW3msIT" role="3clFbG">
+                  <node concept="2OqwBi" id="2mSRcW3msIU" role="3fr31v">
+                    <node concept="2OqwBi" id="2mSRcW3msIV" role="2Oq$k0">
+                      <node concept="pncrf" id="2mSRcW3msIW" role="2Oq$k0" />
+                      <node concept="1mfA1w" id="2mSRcW3msIX" role="2OqNvi" />
+                    </node>
+                    <node concept="1mIQ4w" id="2mSRcW3msIY" role="2OqNvi">
+                      <node concept="chp4Y" id="2mSRcW3msIZ" role="cj9EA">
+                        <ref role="cht4Q" to="tpee:g7HP654" resolve="Interface" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="pkWqt" id="6VuGeviuKpE" role="pqm2j">
           <node concept="3clFbS" id="6VuGeviuKpF" role="2VODD2">
             <node concept="3cpWs6" id="6VuGeviuLfi" role="3cqZAp">
@@ -392,9 +418,9 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="3F0A7n" id="w4TlE3AoHC" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="2SqB2G" id="2mSRcW384V2" role="2SqHTX">
+          <property role="TrG5h" value="cryptoModifier" />
+        </node>
       </node>
       <node concept="3F0ifn" id="7Vd20Sh9SHB" role="3EZMnx">
         <property role="3F0ifm" value="{" />
@@ -457,11 +483,13 @@
         <node concept="l2Vlx" id="7kyJ7qc9s2M" role="2czzBx" />
       </node>
       <node concept="3F0ifn" id="7kyJ7qc9s3y" role="3EZMnx">
-        <property role="3F0ifm" value="size: " />
+        <property role="3F0ifm" value="isCrypto:" />
+        <node concept="pVoyu" id="2mSRcW3pP6y" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
-      <node concept="3F2HdR" id="7kyJ7qc9s41" role="3EZMnx">
-        <ref role="1NtTu8" to="nxdh:7Vd20Sh50tJ" resolve="computationParties" />
-        <node concept="l2Vlx" id="7kyJ7qc9s43" role="2czzBx" />
+      <node concept="3F0A7n" id="2mSRcW3pP6n" role="3EZMnx">
+        <ref role="1NtTu8" to="nxdh:6VuGeviuKh1" resolve="isCryptoComp" />
       </node>
       <node concept="3F0ifn" id="7kyJ7qc9s2V" role="3EZMnx">
         <property role="3F0ifm" value="Result Parties: " />
@@ -904,11 +932,11 @@
         <node concept="2SqB2G" id="5kmCgHXRVxR" role="2SqHTX">
           <property role="TrG5h" value="staticModifier" />
         </node>
-        <node concept="VPxyj" id="2bl07wEHRt$" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
         <node concept="A1WHu" id="1wEcoXjJMEG" role="3vIgyS">
           <ref role="A1WHt" to="tpen:1wEcoXjJMD$" resolve="StaticMethodDeclaration_ApplySideTransforms_1" />
+        </node>
+        <node concept="xShMh" id="2mSRcW3ktmk" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0ifn" id="1oZTOGFulxv" role="3EZMnx">
@@ -1141,6 +1169,9 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="xShMh" id="2mSRcW3ktNh" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0ifn" id="h9ED9Z1" role="3EZMnx">
@@ -1799,8 +1830,8 @@
       </node>
       <node concept="3F0ifn" id="2mSRcW2aXnv" role="3EZMnx">
         <property role="3F0ifm" value="static" />
-        <ref role="1ERwB7" to="tpen:1$sy4tVsf$p" resolve="DeleteStaticInField" />
         <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+        <ref role="1ERwB7" to="tpen:1$sy4tVsf$p" resolve="DeleteStaticInField" />
         <node concept="2SqB2G" id="2mSRcW2aXnw" role="2SqHTX">
           <property role="TrG5h" value="staticModifier" />
         </node>
@@ -1922,6 +1953,9 @@
         </node>
         <node concept="A1WHu" id="2mSRcW2b5Yt" role="3vIgyS">
           <ref role="A1WHt" to="tpen:1wEcoXjJMF$" resolve="StaticFieldDeclaration_ApplySideTransforms" />
+        </node>
+        <node concept="VPxyj" id="2mSRcW3ttSF" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0ifn" id="2mSRcW2aXob" role="3EZMnx">
@@ -2153,8 +2187,11 @@
     </node>
     <node concept="1Qtc8_" id="1wEcoXjIFqc" role="IW6Ez">
       <node concept="3cWJ9i" id="1wEcoXjIFqa" role="1Qtc8$">
+        <node concept="CtIbL" id="2mSRcW3z2q6" role="CtIbM">
+          <property role="CtIbK" value="1A4kJjlVmVt/LEFT" />
+        </node>
         <node concept="CtIbL" id="1wEcoXjIFqb" role="CtIbM">
-          <property role="CtIbK" value="RIGHT" />
+          <property role="CtIbK" value="30NnNOohrQL/RIGHT" />
         </node>
       </node>
       <node concept="IWgqT" id="1wEcoXjIFqH" role="1Qtc8A">
@@ -2203,9 +2240,141 @@
       </node>
     </node>
   </node>
-  <node concept="3p36aQ" id="2mSRcW2$lC$">
-    <property role="3GE5qa" value="MyStaticFieldDeclaration" />
-    <ref role="aqKnT" to="nxdh:2mSRcW2aX4t" resolve="MyStaticFieldDeclaration" />
+  <node concept="1h_SRR" id="2mSRcW364nS">
+    <property role="3GE5qa" value="Computation" />
+    <property role="TrG5h" value="DeleteCrypto" />
+    <ref role="1h_SK9" to="nxdh:7Vd20Sh50tG" resolve="Computation" />
+    <node concept="1hA7zw" id="2mSRcW364nT" role="1h_SK8">
+      <property role="1hAc7j" value="g_hAxAO/delete_action_id" />
+      <node concept="1hAIg9" id="2mSRcW364nU" role="1hA7z_">
+        <node concept="3clFbS" id="2mSRcW364nV" role="2VODD2">
+          <node concept="3clFbF" id="2mSRcW364o7" role="3cqZAp">
+            <node concept="37vLTI" id="2mSRcW364o8" role="3clFbG">
+              <node concept="3clFbT" id="2mSRcW364o9" role="37vLTx">
+                <property role="3clFbU" value="false" />
+              </node>
+              <node concept="2OqwBi" id="2mSRcW364oa" role="37vLTJ">
+                <node concept="3TrcHB" id="2mSRcW364Od" role="2OqNvi">
+                  <ref role="3TsBF5" to="nxdh:6VuGeviuKh1" resolve="isCryptoComp" />
+                </node>
+                <node concept="0IXxy" id="2mSRcW364oc" role="2Oq$k0" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="2mSRcW364od" role="3cqZAp">
+            <node concept="2YIFZM" id="2mSRcW364oe" role="3clFbG">
+              <ref role="37wK5l" to="tpen:3dNubPGrrvT" resolve="setCursorAfterModifierDeleted" />
+              <ref role="1Pybhc" to="tpen:3dNubPGrruN" resolve="CursorFocusUtils" />
+              <node concept="1Q80Hx" id="2mSRcW364of" role="37wK5m" />
+              <node concept="0IXxy" id="2mSRcW364og" role="37wK5m" />
+              <node concept="3clFbT" id="2mSRcW364oh" role="37wK5m">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1hA7zw" id="2mSRcW364Xa" role="1h_SK8">
+      <property role="1hAc7j" value="7P1WhNABvta/backspace_action_id" />
+      <node concept="1hAIg9" id="2mSRcW364Xb" role="1hA7z_">
+        <node concept="3clFbS" id="2mSRcW364Xc" role="2VODD2">
+          <node concept="3clFbF" id="2mSRcW364Xd" role="3cqZAp">
+            <node concept="37vLTI" id="2mSRcW364Xe" role="3clFbG">
+              <node concept="3clFbT" id="2mSRcW364Xf" role="37vLTx">
+                <property role="3clFbU" value="false" />
+              </node>
+              <node concept="2OqwBi" id="2mSRcW364Xg" role="37vLTJ">
+                <node concept="3TrcHB" id="2mSRcW364Xh" role="2OqNvi">
+                  <ref role="3TsBF5" to="nxdh:6VuGeviuKh1" resolve="isCryptoComp" />
+                </node>
+                <node concept="0IXxy" id="2mSRcW364Xi" role="2Oq$k0" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="2mSRcW364Xj" role="3cqZAp">
+            <node concept="2YIFZM" id="2mSRcW364Xk" role="3clFbG">
+              <ref role="37wK5l" to="tpen:3dNubPGrrvT" resolve="setCursorAfterModifierDeleted" />
+              <ref role="1Pybhc" to="tpen:3dNubPGrruN" resolve="CursorFocusUtils" />
+              <node concept="1Q80Hx" id="2mSRcW364Xl" role="37wK5m" />
+              <node concept="0IXxy" id="2mSRcW364Xm" role="37wK5m" />
+              <node concept="3clFbT" id="2mSRcW364Xn" role="37wK5m">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="IW6AY" id="2mSRcW383nA">
+    <property role="3GE5qa" value="Computation" />
+    <ref role="aqKnT" to="nxdh:7Vd20Sh50tG" resolve="Computation" />
+    <node concept="1Qtc8_" id="2mSRcW384hf" role="IW6Ez">
+      <node concept="3cWJ9i" id="2mSRcW384hg" role="1Qtc8$">
+        <node concept="CtIbL" id="2mSRcW384hh" role="CtIbM">
+          <property role="CtIbK" value="LEFT" />
+        </node>
+        <node concept="CtIbL" id="2mSRcW384hi" role="CtIbM">
+          <property role="CtIbK" value="RIGHT" />
+        </node>
+      </node>
+      <node concept="L$LW2" id="2mSRcW384hj" role="1Qtc8A" />
+    </node>
+    <node concept="1Qtc8_" id="2mSRcW384hk" role="IW6Ez">
+      <node concept="3cWJ9i" id="2mSRcW384hl" role="1Qtc8$">
+        <node concept="CtIbL" id="2mSRcW3x8aL" role="CtIbM">
+          <property role="CtIbK" value="1A4kJjlVmVt/LEFT" />
+        </node>
+        <node concept="CtIbL" id="2mSRcW384hm" role="CtIbM">
+          <property role="CtIbK" value="30NnNOohrQL/RIGHT" />
+        </node>
+      </node>
+      <node concept="IWgqT" id="2mSRcW384hn" role="1Qtc8A">
+        <node concept="1hCUdq" id="2mSRcW384ho" role="1hCUd6">
+          <node concept="3clFbS" id="2mSRcW384hp" role="2VODD2">
+            <node concept="3clFbF" id="2mSRcW384hq" role="3cqZAp">
+              <node concept="Xl_RD" id="2mSRcW384hr" role="3clFbG">
+                <property role="Xl_RC" value="crypto" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="IWg2L" id="2mSRcW384hs" role="IWgqQ">
+          <node concept="3clFbS" id="2mSRcW384ht" role="2VODD2">
+            <node concept="3clFbF" id="2mSRcW384hu" role="3cqZAp">
+              <node concept="2OqwBi" id="2mSRcW384hv" role="3clFbG">
+                <node concept="2OqwBi" id="2mSRcW384hw" role="2Oq$k0">
+                  <node concept="7Obwk" id="2mSRcW384hx" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="2mSRcW384P0" role="2OqNvi">
+                    <ref role="3TsBF5" to="nxdh:6VuGeviuKh1" resolve="isCryptoComp" />
+                  </node>
+                </node>
+                <node concept="tyxLq" id="2mSRcW384hz" role="2OqNvi">
+                  <node concept="3clFbT" id="2mSRcW384h$" role="tz02z">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2mSRcW384h_" role="3cqZAp">
+              <node concept="2OqwBi" id="2mSRcW384hA" role="3clFbG">
+                <node concept="7Obwk" id="2mSRcW384hB" role="2Oq$k0" />
+                <node concept="1OKiuA" id="2mSRcW384hC" role="2OqNvi">
+                  <node concept="1Q80Hx" id="2mSRcW384hD" role="lBI5i" />
+                  <node concept="2TlHUq" id="2mSRcW3857x" role="lGT1i">
+                    <ref role="2TlMyj" node="2mSRcW384V2" resolve="cryptoModifier" />
+                  </node>
+                  <node concept="3cmrfG" id="2mSRcW384hF" role="3dN3m$">
+                    <property role="3cmrfH" value="-1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

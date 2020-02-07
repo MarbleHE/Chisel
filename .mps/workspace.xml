@@ -161,13 +161,10 @@
     </breakpoint>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="052123af-b873-42d0-b218-c0648d2d64a5" name="Default Changelist" comment="Fixed visibility bugs. Added more quickfixes for crypto.">
+    <list default="true" id="052123af-b873-42d0-b218-c0648d2d64a5" name="Default Changelist" comment="Removed error files from protocol. &#10;Secret is now normally writeable/deletable.&#10;Fixed bug with &quot;Class should be static&quot; and &quot;Add variable&quot; errors.">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.actions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.actions.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.constraints.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/ChiselLang.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/ChiselLang.mpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.intentions.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.structure.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.typesystem.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps" afterDir="false" />
     </list>
@@ -366,46 +363,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CheckStatic" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QuickFixes" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Computation" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -415,68 +372,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:feffba15-9d09-4930-aba2-b4e39cd2b67a(ChiselLang.sandbox) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:c920869d-c725-452f-883d-9b09f56b97bb(ChiselLang.intentions) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.intentions.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Annotations" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -508,7 +403,91 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheckStatic" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyStaticFieldDeclaration" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c920869d-c725-452f-883d-9b09f56b97bb(ChiselLang.intentions) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.intentions.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -526,7 +505,25 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CheckStatic" />
+              <option name="myItemId" value="Computation" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Computation" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -568,30 +565,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="11d54d75-7cb6-4f8f-8e4d-daa2df3a0a0b" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Matrix" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -600,7 +573,13 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <SELECTED>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
@@ -618,7 +597,75 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="1397747368865844065" />
+              <option name="myItemId" value="QuickFixes" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Computation" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="11d54d75-7cb6-4f8f-8e4d-daa2df3a0a0b" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matrix" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyStaticFieldDeclaration" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2718165156770861353" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -857,6 +904,7 @@
     <MESSAGE value="Fixed bugs in checkRemoveVariable_PartyDeclaration and checkCrypto_Computation" />
     <MESSAGE value="More fixed bugs in checkRemoveVariable_PartyDeclaration and checkCrypto_Computation" />
     <MESSAGE value="Fixed visibility bugs. Added more quickfixes for crypto." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed visibility bugs. Added more quickfixes for crypto." />
+    <MESSAGE value="Removed error files from protocol. &#10;Secret is now normally writeable/deletable.&#10;Fixed bug with &quot;Class should be static&quot; and &quot;Add variable&quot; errors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed error files from protocol. &#10;Secret is now normally writeable/deletable.&#10;Fixed bug with &quot;Class should be static&quot; and &quot;Add variable&quot; errors." />
   </component>
 </project>

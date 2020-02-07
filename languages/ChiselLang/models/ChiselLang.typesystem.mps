@@ -2731,6 +2731,7 @@
               </node>
               <node concept="2MkqsV" id="1d_MXeeZ4ZQ" role="3cqZAp">
                 <node concept="3Cnw8n" id="1d_MXeeZ4ZR" role="2OEOjU">
+                  <property role="ARO6o" value="true" />
                   <ref role="QpYPw" node="1d_MXeeZ5SL" resolve="makeClassStatic" />
                   <node concept="3CnSsL" id="1d_MXeeZ7UB" role="3Coj4f">
                     <ref role="QkamJ" node="1d_MXeeZ63u" resolve="classConcept" />
