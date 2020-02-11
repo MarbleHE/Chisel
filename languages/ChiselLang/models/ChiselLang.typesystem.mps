@@ -236,6 +236,7 @@
       <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
         <reference id="3562215692195600259" name="link" index="13MTZf" />
       </concept>
+      <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
@@ -2623,22 +2624,72 @@
     <property role="3GE5qa" value="CheckStatic" />
     <property role="TrG5h" value="checkStatic_FieldDeclaration" />
     <node concept="3clFbS" id="1d_MXeeCkAa" role="18ibNy">
-      <node concept="2MkqsV" id="1d_MXeeCkAn" role="3cqZAp">
-        <node concept="3Cnw8n" id="1d_MXeeCkAo" role="2OEOjU">
-          <property role="ARO6o" value="true" />
-          <ref role="QpYPw" node="1d_MXeelMHU" resolve="makeFieldStatic" />
-          <node concept="3CnSsL" id="1d_MXeeCkAp" role="3Coj4f">
-            <ref role="QkamJ" node="1d_MXeelMIf" resolve="fieldDecl" />
-            <node concept="1YBJjd" id="1d_MXeeCl1Z" role="3CoRuB">
+      <node concept="3clFbJ" id="6NcfMCUuOgF" role="3cqZAp">
+        <node concept="3clFbS" id="6NcfMCUuOgH" role="3clFbx">
+          <node concept="3SKdUt" id="7qGbpcqXunm" role="3cqZAp">
+            <node concept="1PaTwC" id="7qGbpcqXunn" role="3ndbpf">
+              <node concept="3oM_SD" id="7qGbpcqXuno" role="1PaTwD">
+                <property role="3oM_SC" value="only" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXunp" role="1PaTwD">
+                <property role="3oM_SC" value="direct" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXunq" role="1PaTwD">
+                <property role="3oM_SC" value="children" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXunr" role="1PaTwD">
+                <property role="3oM_SC" value="of" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXuns" role="1PaTwD">
+                <property role="3oM_SC" value="PartyDeclaration" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXunt" role="1PaTwD">
+                <property role="3oM_SC" value="have" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXunu" role="1PaTwD">
+                <property role="3oM_SC" value="to" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXunv" role="1PaTwD">
+                <property role="3oM_SC" value="be" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXunw" role="1PaTwD">
+                <property role="3oM_SC" value="static" />
+              </node>
+            </node>
+          </node>
+          <node concept="2MkqsV" id="1d_MXeeCkAn" role="3cqZAp">
+            <node concept="3Cnw8n" id="1d_MXeeCkAo" role="2OEOjU">
+              <property role="ARO6o" value="true" />
+              <ref role="QpYPw" node="1d_MXeelMHU" resolve="makeFieldStatic" />
+              <node concept="3CnSsL" id="1d_MXeeCkAp" role="3Coj4f">
+                <ref role="QkamJ" node="1d_MXeelMIf" resolve="fieldDecl" />
+                <node concept="1YBJjd" id="1d_MXeeCl1Z" role="3CoRuB">
+                  <ref role="1YBMHb" node="1d_MXeeCkAe" resolve="fieldDeclaration" />
+                </node>
+              </node>
+            </node>
+            <node concept="Xl_RD" id="1d_MXeeCkAt" role="2MkJ7o">
+              <property role="Xl_RC" value="Top level fields have to be static" />
+            </node>
+            <node concept="1YBJjd" id="1d_MXeeCkT3" role="2OEOjV">
               <ref role="1YBMHb" node="1d_MXeeCkAe" resolve="fieldDeclaration" />
             </node>
           </node>
         </node>
-        <node concept="Xl_RD" id="1d_MXeeCkAt" role="2MkJ7o">
-          <property role="Xl_RC" value="Fields have to be static" />
-        </node>
-        <node concept="1YBJjd" id="1d_MXeeCkT3" role="2OEOjV">
-          <ref role="1YBMHb" node="1d_MXeeCkAe" resolve="fieldDeclaration" />
+        <node concept="3y3z36" id="6NcfMCUuS$V" role="3clFbw">
+          <node concept="10Nm6u" id="6NcfMCUuSMD" role="3uHU7w" />
+          <node concept="1PxgMI" id="6NcfMCUuS4r" role="3uHU7B">
+            <property role="1BlNFB" value="true" />
+            <node concept="chp4Y" id="6NcfMCUuScc" role="3oSUPX">
+              <ref role="cht4Q" to="nxdh:3iGtkSVOKWp" resolve="PartyDeclaration" />
+            </node>
+            <node concept="2OqwBi" id="6NcfMCUuQDb" role="1m5AlR">
+              <node concept="1YBJjd" id="6NcfMCUuQiv" role="2Oq$k0">
+                <ref role="1YBMHb" node="1d_MXeeCkAe" resolve="fieldDeclaration" />
+              </node>
+              <node concept="1mfA1w" id="6NcfMCUuR8Y" role="2OqNvi" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -2653,6 +2704,37 @@
     <node concept="3clFbS" id="1d_MXeeClcG" role="18ibNy">
       <node concept="3clFbJ" id="7kyJ7qffFcs" role="3cqZAp">
         <node concept="3clFbS" id="7kyJ7qffFcu" role="3clFbx">
+          <node concept="3SKdUt" id="7qGbpcqXuso" role="3cqZAp">
+            <node concept="1PaTwC" id="7qGbpcqXusp" role="3ndbpf">
+              <node concept="3oM_SD" id="7qGbpcqXusq" role="1PaTwD">
+                <property role="3oM_SC" value="only" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXusr" role="1PaTwD">
+                <property role="3oM_SC" value="direct" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXuss" role="1PaTwD">
+                <property role="3oM_SC" value="children" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXust" role="1PaTwD">
+                <property role="3oM_SC" value="of" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXusu" role="1PaTwD">
+                <property role="3oM_SC" value="PartyDeclaration" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXusv" role="1PaTwD">
+                <property role="3oM_SC" value="have" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXusw" role="1PaTwD">
+                <property role="3oM_SC" value="to" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXusx" role="1PaTwD">
+                <property role="3oM_SC" value="be" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqXusy" role="1PaTwD">
+                <property role="3oM_SC" value="static" />
+              </node>
+            </node>
+          </node>
           <node concept="2MkqsV" id="1d_MXeeClcR" role="3cqZAp">
             <node concept="3Cnw8n" id="1d_MXeeClcS" role="2OEOjU">
               <property role="ARO6o" value="true" />
@@ -2665,24 +2747,45 @@
               </node>
             </node>
             <node concept="Xl_RD" id="1d_MXeeClcX" role="2MkJ7o">
-              <property role="Xl_RC" value="Methods have to be static" />
+              <property role="Xl_RC" value="Top level methods have to be static" />
             </node>
             <node concept="1YBJjd" id="1d_MXeeCl_b" role="2OEOjV">
               <ref role="1YBMHb" node="1d_MXeeClcI" resolve="methodDeclaration" />
             </node>
           </node>
         </node>
-        <node concept="3clFbC" id="7kyJ7qffGz1" role="3clFbw">
-          <node concept="1PxgMI" id="7kyJ7qffF$N" role="3uHU7B">
-            <property role="1BlNFB" value="true" />
-            <node concept="chp4Y" id="7kyJ7qffFKL" role="3oSUPX">
-              <ref role="cht4Q" to="tpee:fIYIFWa" resolve="StaticMethodDeclaration" />
-            </node>
-            <node concept="1YBJjd" id="7kyJ7qffFcR" role="1m5AlR">
-              <ref role="1YBMHb" node="1d_MXeeClcI" resolve="methodDeclaration" />
+        <node concept="1Wc70l" id="7qGbpcqXzCV" role="3clFbw">
+          <node concept="1eOMI4" id="7qGbpcqX_SC" role="3uHU7w">
+            <node concept="3y3z36" id="7qGbpcqX_BF" role="1eOMHV">
+              <node concept="10Nm6u" id="7qGbpcqX_PS" role="3uHU7w" />
+              <node concept="1PxgMI" id="7qGbpcqX_4h" role="3uHU7B">
+                <property role="1BlNFB" value="true" />
+                <node concept="chp4Y" id="7qGbpcqX_9i" role="3oSUPX">
+                  <ref role="cht4Q" to="nxdh:3iGtkSVOKWp" resolve="PartyDeclaration" />
+                </node>
+                <node concept="2OqwBi" id="7qGbpcqX$jV" role="1m5AlR">
+                  <node concept="1YBJjd" id="7qGbpcqXzHw" role="2Oq$k0">
+                    <ref role="1YBMHb" node="1d_MXeeClcI" resolve="methodDeclaration" />
+                  </node>
+                  <node concept="1mfA1w" id="7qGbpcqX$R3" role="2OqNvi" />
+                </node>
+              </node>
             </node>
           </node>
-          <node concept="10Nm6u" id="7kyJ7qffGgb" role="3uHU7w" />
+          <node concept="1eOMI4" id="7qGbpcqXA07" role="3uHU7B">
+            <node concept="3clFbC" id="7kyJ7qffGz1" role="1eOMHV">
+              <node concept="1PxgMI" id="7kyJ7qffF$N" role="3uHU7B">
+                <property role="1BlNFB" value="true" />
+                <node concept="chp4Y" id="7kyJ7qffFKL" role="3oSUPX">
+                  <ref role="cht4Q" to="tpee:fIYIFWa" resolve="StaticMethodDeclaration" />
+                </node>
+                <node concept="1YBJjd" id="7kyJ7qffFcR" role="1m5AlR">
+                  <ref role="1YBMHb" node="1d_MXeeClcI" resolve="methodDeclaration" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="7kyJ7qffGgb" role="3uHU7w" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -2697,38 +2800,39 @@
     <node concept="3clFbS" id="1d_MXeeZ4Hy" role="18ibNy">
       <node concept="3clFbJ" id="7kyJ7qfhlE3" role="3cqZAp">
         <node concept="3clFbS" id="7kyJ7qfhlE5" role="3clFbx">
+          <node concept="3SKdUt" id="6NcfMCUx6qV" role="3cqZAp">
+            <node concept="1PaTwC" id="6NcfMCUx6qW" role="3ndbpf">
+              <node concept="3oM_SD" id="6NcfMCUx6qY" role="1PaTwD">
+                <property role="3oM_SC" value="only" />
+              </node>
+              <node concept="3oM_SD" id="6NcfMCUx6rt" role="1PaTwD">
+                <property role="3oM_SC" value="direct" />
+              </node>
+              <node concept="3oM_SD" id="6NcfMCUx6rw" role="1PaTwD">
+                <property role="3oM_SC" value="children" />
+              </node>
+              <node concept="3oM_SD" id="6NcfMCUx6r$" role="1PaTwD">
+                <property role="3oM_SC" value="of" />
+              </node>
+              <node concept="3oM_SD" id="6NcfMCUx6rD" role="1PaTwD">
+                <property role="3oM_SC" value="PartyDeclaration" />
+              </node>
+              <node concept="3oM_SD" id="6NcfMCUx6rJ" role="1PaTwD">
+                <property role="3oM_SC" value="have" />
+              </node>
+              <node concept="3oM_SD" id="6NcfMCUx6rQ" role="1PaTwD">
+                <property role="3oM_SC" value="to" />
+              </node>
+              <node concept="3oM_SD" id="6NcfMCUx6rY" role="1PaTwD">
+                <property role="3oM_SC" value="be" />
+              </node>
+              <node concept="3oM_SD" id="6NcfMCUx6s7" role="1PaTwD">
+                <property role="3oM_SC" value="static" />
+              </node>
+            </node>
+          </node>
           <node concept="3clFbJ" id="1d_MXeeZ4ZO" role="3cqZAp">
             <node concept="3clFbS" id="1d_MXeeZ4ZP" role="3clFbx">
-              <node concept="2xdQw9" id="2mSRcW2Rrri" role="3cqZAp">
-                <node concept="3cpWs3" id="2mSRcW2RtmJ" role="9lYJi">
-                  <node concept="2OqwBi" id="2mSRcW2RtuF" role="3uHU7w">
-                    <node concept="1YBJjd" id="2mSRcW2RtoH" role="2Oq$k0">
-                      <ref role="1YBMHb" node="1d_MXeeZ4RW" resolve="classConcept" />
-                    </node>
-                    <node concept="3TrcHB" id="2mSRcW2RtyD" role="2OqNvi">
-                      <ref role="3TsBF5" to="tpee:4kvBDYi2RXX" resolve="isStatic" />
-                    </node>
-                  </node>
-                  <node concept="3cpWs3" id="2mSRcW2RsFF" role="3uHU7B">
-                    <node concept="3cpWs3" id="2mSRcW2RrHI" role="3uHU7B">
-                      <node concept="Xl_RD" id="2mSRcW2Rrrk" role="3uHU7B">
-                        <property role="Xl_RC" value="This class " />
-                      </node>
-                      <node concept="2OqwBi" id="2mSRcW2RrQY" role="3uHU7w">
-                        <node concept="1YBJjd" id="2mSRcW2RrI4" role="2Oq$k0">
-                          <ref role="1YBMHb" node="1d_MXeeZ4RW" resolve="classConcept" />
-                        </node>
-                        <node concept="3TrcHB" id="2mSRcW2Rs69" role="2OqNvi">
-                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="2mSRcW2RsHt" role="3uHU7w">
-                      <property role="Xl_RC" value=" isStatic " />
-                    </node>
-                  </node>
-                </node>
-              </node>
               <node concept="2MkqsV" id="1d_MXeeZ4ZQ" role="3cqZAp">
                 <node concept="3Cnw8n" id="1d_MXeeZ4ZR" role="2OEOjU">
                   <property role="ARO6o" value="true" />
@@ -2741,7 +2845,7 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="1d_MXeeZ4ZU" role="2MkJ7o">
-                  <property role="Xl_RC" value="Classes have to be static" />
+                  <property role="Xl_RC" value="Top level classes have to be static" />
                 </node>
                 <node concept="1YBJjd" id="1d_MXeeZ7UT" role="2OEOjV">
                   <ref role="1YBMHb" node="1d_MXeeZ4RW" resolve="classConcept" />
@@ -2761,15 +2865,36 @@
           </node>
           <node concept="3clFbH" id="7kyJ7qfhlE4" role="3cqZAp" />
         </node>
-        <node concept="3clFbC" id="7kyJ7qfhmtq" role="3clFbw">
-          <node concept="10Nm6u" id="7kyJ7qfhmDt" role="3uHU7w" />
-          <node concept="1PxgMI" id="7kyJ7qfhm3d" role="3uHU7B">
-            <property role="1BlNFB" value="true" />
-            <node concept="chp4Y" id="7kyJ7qfhmiK" role="3oSUPX">
-              <ref role="cht4Q" to="nxdh:3iGtkSVOKWp" resolve="PartyDeclaration" />
+        <node concept="1Wc70l" id="6NcfMCUx2ox" role="3clFbw">
+          <node concept="1eOMI4" id="6NcfMCUx69i" role="3uHU7w">
+            <node concept="3y3z36" id="6NcfMCUx5AN" role="1eOMHV">
+              <node concept="10Nm6u" id="6NcfMCUx5Q0" role="3uHU7w" />
+              <node concept="1PxgMI" id="6NcfMCUx57R" role="3uHU7B">
+                <property role="1BlNFB" value="true" />
+                <node concept="chp4Y" id="6NcfMCUx5dS" role="3oSUPX">
+                  <ref role="cht4Q" to="nxdh:3iGtkSVOKWp" resolve="PartyDeclaration" />
+                </node>
+                <node concept="2OqwBi" id="6NcfMCUx37x" role="1m5AlR">
+                  <node concept="1YBJjd" id="6NcfMCUx2Ax" role="2Oq$k0">
+                    <ref role="1YBMHb" node="1d_MXeeZ4RW" resolve="classConcept" />
+                  </node>
+                  <node concept="1mfA1w" id="6NcfMCUx3S3" role="2OqNvi" />
+                </node>
+              </node>
             </node>
-            <node concept="1YBJjd" id="7kyJ7qfhlEP" role="1m5AlR">
-              <ref role="1YBMHb" node="1d_MXeeZ4RW" resolve="classConcept" />
+          </node>
+          <node concept="1eOMI4" id="6NcfMCUx6bR" role="3uHU7B">
+            <node concept="3clFbC" id="7kyJ7qfhmtq" role="1eOMHV">
+              <node concept="1PxgMI" id="7kyJ7qfhm3d" role="3uHU7B">
+                <property role="1BlNFB" value="true" />
+                <node concept="chp4Y" id="7kyJ7qfhmiK" role="3oSUPX">
+                  <ref role="cht4Q" to="nxdh:3iGtkSVOKWp" resolve="PartyDeclaration" />
+                </node>
+                <node concept="1YBJjd" id="7kyJ7qfhlEP" role="1m5AlR">
+                  <ref role="1YBMHb" node="1d_MXeeZ4RW" resolve="classConcept" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="7kyJ7qfhmDt" role="3uHU7w" />
             </node>
           </node>
         </node>
@@ -5105,6 +5230,37 @@
     <node concept="3clFbS" id="2mSRcW2bg$p" role="18ibNy">
       <node concept="3clFbJ" id="2mSRcW2h4KX" role="3cqZAp">
         <node concept="3clFbS" id="2mSRcW2h4KY" role="3clFbx">
+          <node concept="3SKdUt" id="7qGbpcqZTgX" role="3cqZAp">
+            <node concept="1PaTwC" id="7qGbpcqZTgY" role="3ndbpf">
+              <node concept="3oM_SD" id="7qGbpcqZTgZ" role="1PaTwD">
+                <property role="3oM_SC" value="only" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqZTh0" role="1PaTwD">
+                <property role="3oM_SC" value="direct" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqZTh1" role="1PaTwD">
+                <property role="3oM_SC" value="children" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqZTh2" role="1PaTwD">
+                <property role="3oM_SC" value="of" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqZTh3" role="1PaTwD">
+                <property role="3oM_SC" value="PartyDeclaration" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqZTh4" role="1PaTwD">
+                <property role="3oM_SC" value="have" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqZTh5" role="1PaTwD">
+                <property role="3oM_SC" value="to" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqZTh6" role="1PaTwD">
+                <property role="3oM_SC" value="be" />
+              </node>
+              <node concept="3oM_SD" id="7qGbpcqZTh7" role="1PaTwD">
+                <property role="3oM_SC" value="static" />
+              </node>
+            </node>
+          </node>
           <node concept="2MkqsV" id="2mSRcW2bgA9" role="3cqZAp">
             <node concept="3Cnw8n" id="2mSRcW2bgAa" role="2OEOjU">
               <property role="ARO6o" value="true" />
@@ -5117,24 +5273,45 @@
               </node>
             </node>
             <node concept="Xl_RD" id="2mSRcW2bgAd" role="2MkJ7o">
-              <property role="Xl_RC" value="Fields have to be my static" />
+              <property role="Xl_RC" value="Top level fields have to be my static" />
             </node>
             <node concept="1YBJjd" id="2mSRcW2bgBP" role="2OEOjV">
               <ref role="1YBMHb" node="2mSRcW2bg$t" resolve="staticFieldDeclaration" />
             </node>
           </node>
         </node>
-        <node concept="3clFbC" id="2mSRcW2h4L5" role="3clFbw">
-          <node concept="1PxgMI" id="2mSRcW2h4L6" role="3uHU7B">
-            <property role="1BlNFB" value="true" />
-            <node concept="chp4Y" id="2mSRcW2h4Y9" role="3oSUPX">
-              <ref role="cht4Q" to="nxdh:2mSRcW2aX4t" resolve="MyStaticFieldDeclaration" />
-            </node>
-            <node concept="1YBJjd" id="2mSRcW2h4Md" role="1m5AlR">
-              <ref role="1YBMHb" node="2mSRcW2bg$t" resolve="staticFieldDeclaration" />
+        <node concept="1Wc70l" id="7qGbpcqZRgY" role="3clFbw">
+          <node concept="1eOMI4" id="7qGbpcqZRi9" role="3uHU7w">
+            <node concept="3y3z36" id="7qGbpcqZT1c" role="1eOMHV">
+              <node concept="10Nm6u" id="7qGbpcqZTft" role="3uHU7w" />
+              <node concept="1PxgMI" id="7qGbpcqZSth" role="3uHU7B">
+                <property role="1BlNFB" value="true" />
+                <node concept="chp4Y" id="7qGbpcqZSZK" role="3oSUPX">
+                  <ref role="cht4Q" to="nxdh:3iGtkSVOKWp" resolve="PartyDeclaration" />
+                </node>
+                <node concept="2OqwBi" id="7qGbpcqZRI$" role="1m5AlR">
+                  <node concept="1YBJjd" id="7qGbpcqZRj9" role="2Oq$k0">
+                    <ref role="1YBMHb" node="2mSRcW2bg$t" resolve="staticFieldDeclaration" />
+                  </node>
+                  <node concept="1mfA1w" id="7qGbpcqZSjJ" role="2OqNvi" />
+                </node>
+              </node>
             </node>
           </node>
-          <node concept="10Nm6u" id="2mSRcW2h4L9" role="3uHU7w" />
+          <node concept="1eOMI4" id="7qGbpcqZQYa" role="3uHU7B">
+            <node concept="3clFbC" id="2mSRcW2h4L5" role="1eOMHV">
+              <node concept="1PxgMI" id="2mSRcW2h4L6" role="3uHU7B">
+                <property role="1BlNFB" value="true" />
+                <node concept="chp4Y" id="2mSRcW2h4Y9" role="3oSUPX">
+                  <ref role="cht4Q" to="nxdh:2mSRcW2aX4t" resolve="MyStaticFieldDeclaration" />
+                </node>
+                <node concept="1YBJjd" id="2mSRcW2h4Md" role="1m5AlR">
+                  <ref role="1YBMHb" node="2mSRcW2bg$t" resolve="staticFieldDeclaration" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="2mSRcW2h4L9" role="3uHU7w" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
