@@ -26,7 +26,7 @@ In the navigation bar you should see five directories.
 ## How to write code
 - A gray *<no statements>* marker indicates where you can write Java code.
 - The color of the font gives information about the changeability of the text, as explained in the following image. 
-  ![Chisel colors](https://github.com/MarbleHE/Chisel/screenshots/Tutorial/03_Colors_texted.png)
+  ![Chisel colors](screenshots/Tutorial/03_Colors_texted.png)
 - For changeable text, either  the  whole  statement  can  be exchanged, or the part after the equal sign can be set, as seen in the next two images, both times using auto-complete to show the possibilities.
   ![Chisel changeable a](https://github.com/MarbleHE/Chisel/screenshots/Tutorial/02_a_Changeable.png)
   ![Chisel changeable b](https://github.com/MarbleHE/Chisel/screenshots/Tutorial/02_b_Changeable.png)
