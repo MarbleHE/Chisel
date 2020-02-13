@@ -23,4 +23,25 @@ In the navigation bar you should see five directories.
 3. Open *ChiselLang.sandbox*->*ChiselLang*->*sandbox*. There you should see some example protocols.
 4. To create a new protocol, right-click on *sandbox*, then select "New"->"ChiselLang"->"Protocol".
 
+## How to write code
+- A gray *<no statements>* marker indicates where you can write Java code.
+- The color of the font gives information about the changeability of the text, as explained in the following image. 
+  ![Chisel colors](https://github.com/MarbleHE/Chisel/images/Chisel/03_Colors_texted.png)
+- For changeable text, either  the  whole  statement  can  be exchanged, or the part after the equal sign can be set, as seen in the next two images, both times using auto-complete to show the possibilities.
+  ![Chisel changeable a](https://github.com/MarbleHE/Chisel/images/Chisel/02_a_Changeable.png)
+  ![Chisel changeable b](https://github.com/MarbleHE/Chisel/images/Chisel/02_b_Changeable.png)
+- Errors can often be fixed by using intentions, as shown here.
+  ![Chisel intentions](https://github.com/MarbleHE/Chisel/images/Chisel/04_Intentions.png)
+
+## How to do secure computations
+- To mark a variable as secret, write "secret" after the "static" keyword. There also exists an intention to add the "secret" keyword. Note that only top-level variables can be marked as secret.
+- To mark a computation as secure, write "crypto" after the computation name. There also exists an intention to add the "crypto" keyword.
+- You can access results of a computation by using the "Result Reference" concept, as seen in the following image. All available variables are listed in each party under "Variables from Computations".
+  ![Chisel result ref](https://github.com/MarbleHE/Chisel/images/Chisel/05_ResultRef.png)
+
+## Known Bugs
+- Please ignore the error “The reference … is out of search scope” on a party or variable reference.
+- Please ignore “Error: type Matrix.runtime.Matrix$<$...$>$ is not a subtype of matrix$<$...$>$” on assigning a matrix.
+- The automatic “auto” fill in executing parties might show up again after deleting it. Just delete it again, then it should stay deleted.
+- Please ignore the "(generation required)" in the navigation bar.
 
