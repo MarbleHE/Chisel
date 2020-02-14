@@ -26,18 +26,18 @@ In the navigation bar you should see five directories.
 ## How to write code
 - A gray *<no statements>* marker indicates where you can write Java code.
 - The color of the font gives information about the changeability of the text, as explained in the following image. 
-  ![Chisel colors](https://github.com/MarbleHE/Chisel/images/Chisel/03_Colors_texted.png)
+  ![Chisel colors](screenshots/Tutorial/03_Colors_texted.png)
 - For changeable text, either  the  whole  statement  can  be exchanged, or the part after the equal sign can be set, as seen in the next two images, both times using auto-complete to show the possibilities.
-  ![Chisel changeable a](https://github.com/MarbleHE/Chisel/images/Chisel/02_a_Changeable.png)
-  ![Chisel changeable b](https://github.com/MarbleHE/Chisel/images/Chisel/02_b_Changeable.png)
+  ![Chisel changeable a](screenshots/Tutorial/02_a_Changeable.png)
+  ![Chisel changeable b](screenshots/Tutorial/02_b_Changeable.png)
 - Errors can often be fixed by using intentions, as shown here.
-  ![Chisel intentions](https://github.com/MarbleHE/Chisel/images/Chisel/04_Intentions.png)
+  ![Chisel intentions](screenshots/Tutorial/04_Intentions.png)
 
 ## How to do secure computations
 - To mark a variable as secret, write "secret" after the "static" keyword. There also exists an intention to add the "secret" keyword. Note that only top-level variables can be marked as secret.
 - To mark a computation as secure, write "crypto" after the computation name. There also exists an intention to add the "crypto" keyword.
 - You can access results of a computation by using the "Result Reference" concept, as seen in the following image. All available variables are listed in each party under "Variables from Computations".
-  ![Chisel result ref](https://github.com/MarbleHE/Chisel/images/Chisel/05_ResultRef.png)
+  ![Chisel result ref](screenshots/Tutorial/05_ResultRef.png)
 
 ## Known Bugs
 - Please ignore the error “The reference … is out of search scope” on a party or variable reference.
