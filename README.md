@@ -41,7 +41,7 @@ In the navigation bar you should see five directories.
 
 ## Known Bugs
 - Please ignore the error “The reference … is out of search scope” on a party or variable reference.
-- Please ignore “Error: type Matrix.runtime.Matrix$<$...$>$ is not a subtype of matrix$<$...$>$” on assigning a matrix.
+- Please ignore “Error: type Matrix.runtime.Matrix<...> is not a subtype of matrix<...>” on assigning a matrix.
 - The automatic “auto” fill in executing parties might show up again after deleting it. Just delete it again, then it should stay deleted.
 - Please ignore the "(generation required)" in the navigation bar.
 
