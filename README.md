@@ -45,3 +45,14 @@ In the navigation bar you should see five directories.
 - The automatic “auto” fill in executing parties might show up again after deleting it. Just delete it again, then it should stay deleted.
 - Please ignore the "(generation required)" in the navigation bar.
 
+## Matrix Language 
+- You can define matrices by typing "matrix", which should then autofill to matrix<<type>> <no name>.
+- You can then initialize it by typing "={", which should give you a square that you can fill with your matrix. 
+- Pressing <enter> at the end of the last row inserts a new row.
+- Enter your values int a row, pressing <enter> after each value.
+  ![Chisel new matrix](screenshots/Tutorial/06_newMatrix.gif)
+- The following operations are available for Matrices: 
+  - Matrix.mult(Matrix)
+  - Matrix.mult(int)
+  - Matrix.plus(Matrix)
+  - Matrix.minus(Matrix)
