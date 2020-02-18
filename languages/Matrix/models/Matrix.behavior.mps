@@ -176,7 +176,7 @@
       </node>
     </node>
     <node concept="13i0hz" id="1BZr2_552P8" role="13h7CS">
-      <property role="TrG5h" value="plus" />
+      <property role="TrG5h" value="add" />
       <node concept="3Tm1VV" id="1BZr2_552P9" role="1B3o_S" />
       <node concept="3Tqbb2" id="1BZr2_552Py" role="3clF45">
         <ref role="ehGHo" to="4vy6:6HYISdm6q8k" resolve="MatrixType" />
@@ -200,7 +200,7 @@
       </node>
     </node>
     <node concept="13i0hz" id="1BZr2_5549N" role="13h7CS">
-      <property role="TrG5h" value="minus" />
+      <property role="TrG5h" value="sub" />
       <node concept="3Tm1VV" id="1BZr2_5549O" role="1B3o_S" />
       <node concept="3Tqbb2" id="1BZr2_5549P" role="3clF45">
         <ref role="ehGHo" to="4vy6:6HYISdm6q8k" resolve="MatrixType" />
