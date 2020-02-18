@@ -55,5 +55,5 @@ In the navigation bar you should see five directories.
 - The following operations are available for Matrices: 
   - Matrix.mult(Matrix)
   - Matrix.mult(int)
-  - Matrix.plus(Matrix)
-  - Matrix.minus(Matrix)
+  - Matrix.add(Matrix)
+  - Matrix.sub(Matrix)
