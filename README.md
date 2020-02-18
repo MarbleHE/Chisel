@@ -7,7 +7,7 @@ If you want to change or extend Chisel and do not have experience with MPS, I ca
 1. Download JetBrains MPS here: https://www.jetbrains.com/mps/ .
 2. Download this repository.
 3. Open MPS and select "Open Project", then navigate to the downloaded folder.
-4. You might want to press <cmd+1>/<alt+1> to show the navigation bar and <cmd+2>/<alt+2> to show the inspector.
+4. You might want to press \<cmd+1> / \<alt+1> to show the navigation bar and \<cmd+2> / \<alt+2> to show the inspector.
 
 ## Navigation
 In the navigation bar you should see five directories.
@@ -24,7 +24,7 @@ In the navigation bar you should see five directories.
 4. To create a new protocol, right-click on *sandbox*, then select "New"->"ChiselLang"->"Protocol".
 
 ## How to write code
-- A gray *<no statements>* marker indicates where you can write Java code.
+- A gray \<no statements> marker indicates where you can write Java code.
 - The color of the font gives information about the changeability of the text, as explained in the following image. 
   ![Chisel colors](screenshots/Tutorial/03_Colors_texted.png)
 - For changeable text, either  the  whole  statement  can  be exchanged, or the part after the equal sign can be set, as seen in the next two images, both times using auto-complete to show the possibilities.
@@ -41,17 +41,17 @@ In the navigation bar you should see five directories.
 
 ## Known Bugs
 - Please ignore the error “The reference … is out of search scope” on a party or variable reference.
-- Please ignore “Error: type Matrix.runtime.Matrix<...> is not a subtype of matrix<...>” on assigning a matrix.
+- Please ignore “Error: type Matrix.runtime.Matrix\<...> is not a subtype of matrix\<...>” on assigning a matrix.
 - The automatic “auto” fill in executing parties might show up again after deleting it. Just delete it again, then it should stay deleted.
 - Please ignore the "(generation required)" in the navigation bar.
 
 ## Matrix Language 
-- You can define matrices by typing "Matrix", which should then autofill to Matrix<<type>> <no name>.
+- You can define matrices by typing "Matrix", which should then autofill to Matrix\<\<type>> \<no name>.
 - You can then initialize it by typing "={", which should give you a square that you can fill with your matrix. 
-- Pressing <enter> at the end of the last row inserts a new row.
-- Enter your values int a row, pressing <enter> after each value.
+- Pressing\<enter> at the end of the last row inserts a new row.
+- Enter your values int a row, pressing \<enter> after each value.
   ![Chisel new matrix](screenshots/Tutorial/06_newMatrix.gif)
-- You can access a cell of the matrix by using methods Matrix.get(<i>,<j>) and Matrix.set(<i>,<j>,<value>).
+- You can access a cell of the matrix by using methods Matrix.get(\<i>,\<j>) and Matrix.set(\<i>,\<j>,\<value>).
 - The following operations are available for Matrices: 
   - Matrix.mult(Matrix)
   - Matrix.mult(int)
