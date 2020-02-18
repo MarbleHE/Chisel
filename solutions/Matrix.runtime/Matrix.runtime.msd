@@ -8,7 +8,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">b98999bc-8369-4b20-9510-598d4eb5ace6(jetbrains.mps.baseLanguage.math.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
@@ -19,7 +18,6 @@
   <dependencyVersions>
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="93166633-f1f2-4524-828b-4a3217f78bab(Matrix.runtime)" version="0" />
-    <module reference="b98999bc-8369-4b20-9510-598d4eb5ace6(jetbrains.mps.baseLanguage.math.runtime)" version="0" />
   </dependencyVersions>
 </solution>
 

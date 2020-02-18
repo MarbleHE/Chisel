@@ -146,6 +146,7 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
+      <concept id="1214918975462" name="jetbrains.mps.baseLanguage.structure.PostfixDecrementExpression" flags="nn" index="3uO5VW" />
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1184950988562" name="jetbrains.mps.baseLanguage.structure.ArrayCreator" flags="nn" index="3$_iS1">
         <child id="1184951007469" name="componentType" index="3$_nBY" />
@@ -4108,20 +4109,25 @@
           <node concept="3cpWsn" id="335DG0I$amd" role="1Duv9x">
             <property role="TrG5h" value="i" />
             <node concept="10Oyi0" id="335DG0I$ayK" role="1tU5fm" />
-            <node concept="3cmrfG" id="335DG0I$az3" role="33vP2m">
-              <property role="3cmrfH" value="1" />
+            <node concept="3cpWsd" id="2PKiKze2njL" role="33vP2m">
+              <node concept="3cmrfG" id="2PKiKze2njO" role="3uHU7w">
+                <property role="3cmrfH" value="1" />
+              </node>
+              <node concept="37vLTw" id="2PKiKze2kvV" role="3uHU7B">
+                <ref role="3cqZAo" node="335DG0IzfEl" resolve="n" />
+              </node>
             </node>
           </node>
-          <node concept="3eOVzh" id="335DG0I$bit" role="1Dwp0S">
-            <node concept="37vLTw" id="335DG0I$bng" role="3uHU7w">
-              <ref role="3cqZAo" node="335DG0IzfEl" resolve="n" />
-            </node>
+          <node concept="2d3UOw" id="2PKiKze2nsS" role="1Dwp0S">
             <node concept="37vLTw" id="335DG0I$azc" role="3uHU7B">
               <ref role="3cqZAo" node="335DG0I$amd" resolve="i" />
             </node>
+            <node concept="3cmrfG" id="2PKiKze2ls4" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
           </node>
-          <node concept="3uNrnE" id="335DG0I$bTW" role="1Dwrff">
-            <node concept="37vLTw" id="335DG0I$bTY" role="2$L3a6">
+          <node concept="3uO5VW" id="2PKiKze2n71" role="1Dwrff">
+            <node concept="37vLTw" id="2PKiKze2n73" role="2$L3a6">
               <ref role="3cqZAo" node="335DG0I$amd" resolve="i" />
             </node>
           </node>
