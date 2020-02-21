@@ -48,15 +48,9 @@ Please reference [this tutorial](https://github.com/MarbleHE/Chisel/blob/master/
 ## How to do secure computations
 - To mark a variable as secret, write "secret" after the "static" keyword. There also exists an intention to add the "secret" keyword. Note that only top-level variables can be marked as secret.
 - To mark a computation as secure, write "crypto" after the computation name. There also exists an intention to add the "crypto" keyword.
-- You can access results of a computation by using the "Result Reference" concept, as seen in the following image. All available variables are listed in each party under "Variables from Computations".
+- A party that gets the result of a computation can access that result in a later computation. You can see all these references listed under "Variables from Computations" for each party, e.g. "i" in the example below. To access such a variable, you use the "Result Reference" function, e.g. "Result Reference ( MyParty, i)" in the example below.
   ![Chisel result ref](screenshots/Tutorial/05_ResultRef.png)
-
-## Known Bugs
-- Please ignore the error “The reference … is out of search scope” on a party or variable reference.
-- Please ignore “Error: type Matrix.runtime.Matrix\<...> is not a subtype of matrix\<...>” on assigning a matrix.
-- The automatic “auto” fill in executing parties might show up again after deleting it. Just delete it again, then it should stay deleted.
-- Please ignore the "(generation required)" in the navigation bar.
-
+  
 ## Matrix Language 
 - You can define matrices by typing "Matrix", which should then autofill to Matrix\<\<type>> \<no name>.
 - You can then initialize it by typing "={", which should give you a square that you can fill with your matrix. 
@@ -69,3 +63,9 @@ Please reference [this tutorial](https://github.com/MarbleHE/Chisel/blob/master/
   - Matrix.mult(int)
   - Matrix.add(Matrix)
   - Matrix.sub(Matrix)
+
+## Known Bugs
+- Please ignore the error “The reference … is out of search scope” on a party or variable reference.
+- Please ignore “Error: type Matrix.runtime.Matrix\<...> is not a subtype of matrix\<...>” on assigning a matrix.
+- The automatic “auto” fill in executing parties might show up again after deleting it. Just delete it again, then it should stay deleted.
+- Please ignore the "(generation required)" in the navigation bar.
