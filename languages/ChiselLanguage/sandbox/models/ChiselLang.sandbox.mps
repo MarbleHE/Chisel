@@ -293,6 +293,21 @@
         </node>
         <node concept="3Tm1VV" id="7qGbpcqZOvQ" role="1B3o_S" />
       </node>
+      <node concept="B$KRi" id="n6KDB619x5" role="jymVt">
+        <property role="TrG5h" value="rightClass" />
+        <node concept="3uibUv" id="n6KDB619r1" role="1tU5fm">
+          <ref role="3uigEE" node="7qGbpcqZOvP" resolve="E_Party.MyClass" />
+        </node>
+        <node concept="3Tm1VV" id="n6KDB619x8" role="1B3o_S" />
+        <node concept="2ShNRf" id="n6KDB619zf" role="33vP2m">
+          <node concept="1pGfFk" id="n6KDB619EU" role="2ShVmc">
+            <ref role="37wK5l" node="7qGbpcqZOzu" resolve="E_Party.MyClass" />
+            <node concept="3cmrfG" id="n6KDB619Fz" role="37wK5m">
+              <property role="3cmrfH" value="5" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="2tJIrI" id="2PKiKze2DjM" role="jymVt" />
       <node concept="2tJIrI" id="2PKiKze2DoQ" role="jymVt" />
       <node concept="B$KRi" id="7qGbpcqZP2i" role="jymVt">
