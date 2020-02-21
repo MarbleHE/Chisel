@@ -23,6 +23,18 @@ In the navigation bar you should see five directories.
 3. Open *ChiselLang.sandbox*->*ChiselLang*->*sandbox*. There you should see some example protocols.
 4. To create a new protocol, right-click on *sandbox*, then select "New"->"ChiselLang"->"Protocol".
 
+## Projectional Editors
+Standard code editors are textual editors, meaning you write text that is then parsed and compiled. 
+MPS is a projectional editor, meaning you directly specify the AST, no parsing and compiling needed.
+This entails that the structure of your code is quite strictly predefined.
+
+Everytime you see red underlined code and the message "Error: Abstract conecpt instance detected. Use one of sub-concepts instead.", you are probably not adhering to this strucure. 
+Be aware that you might not *see* a difference between your code and the correctly structured code, as is demonstrated in the following screenshot.
+![Chisel projectional](screenshots/Tutorial/07_projectional.png)
+
+To mitigate this problem, it is important to use auto-completion and intentions as often as possible.
+Please reference [this tutorial](https://github.com/MarbleHE/Chisel/blob/master/IntroToJetBrains.md) on how to do that.
+
 ## How to write code
 - A gray \<no statements> marker indicates where you can write Java code.
 - The color of the font gives information about the changeability of the text, as explained in the following image. 
