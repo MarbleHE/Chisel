@@ -1,7 +1,7 @@
 # Chisel
 Chisel is a domain-specific language for advanced cryptography, specifically Fully Homomorphic Encryption (FHE) and Multi-Party Computation (MPC). 
 Chisel is written in JetBrains MPS and is based on Java. If you only want to use this language, you do not need to know anything about MPS. Experience in Java and JetBrain tools is beneficial though. 
-If you want to change or extend Chisel and do not have experience with MPS, I can highly recommend the ["Fast Track to MPS"] (https://www.jetbrains.com/help/mps/fast-track-to-mps.html) as well as [the official tutorials](https://www.jetbrains.com/help/mps/mps-tutorials.html).
+If you want to change or extend Chisel and do not have experience with MPS, I can highly recommend the ["Fast Track to MPS"](https://www.jetbrains.com/help/mps/fast-track-to-mps.html) as well as [the official tutorials](https://www.jetbrains.com/help/mps/mps-tutorials.html).
 
 ## Installation
 1. Download JetBrains MPS here: https://www.jetbrains.com/mps/ .
