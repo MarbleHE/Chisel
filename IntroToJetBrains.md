@@ -9,7 +9,7 @@ This tutorial will use IntelliJ, an IDE for Java, to show these features, but ot
 ## Code completion
 Code completion helps you complete the names of classes, methods, fields, and keywords within the visibility scope. When you invoke code completion, IntelliJ analyses the context and suggests the choices that are reachable from the current caret position.
 
-![Code completion](screenshots/JetBrains/codeCompletion_text.png)
+![Code completion](screenshots/JetBrains/codeCompletion_text.gif)
 
 1. Start typing a name.
 2. Press <ctrl+space> to invoke code completion.
@@ -26,7 +26,7 @@ As soon as the IDE finds a way to alter your code, it displays a yellow bulb ico
 
 A red bulb with an exclamation mark the Quick-fix icon indicates that IntelliJ IDEA has detected a problem, and prompts you to select an associated fix.
 
-![Intentions](screenshots/JetBrains/intentions_text.png)
+![Intentions](screenshots/JetBrains/intentions_text.gif)
 
 1. Click the light bulb icon or press <alt+enter> to open the list of suggestions.
 2. Use arrow keys to navigate the list.
