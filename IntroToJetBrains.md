@@ -12,9 +12,9 @@ Code completion helps you complete the names of classes, methods, fields, and ke
 ![Code completion](screenshots/JetBrains/codeCompletion_text.gif)
 
 1. Start typing a name.
-2. Press <ctrl+space> to invoke code completion.
+2. Press \<ctrl+space\> to invoke code completion.
 3. Use arrow keys to navigate the list of suggestions.
-4. Press <enter> or double-click a list item to insert it.
+4. Press \<enter\> or double-click a list item to insert it.
 
 You can narrow down the suggestions list by typing any part of a word (even characters from somewhere in the middle) or invoking code completion after a dot separator. IntelliJ IDEA will show suggestions that include the characters you've entered in any positions.
 
@@ -28,6 +28,6 @@ A red bulb with an exclamation mark the Quick-fix icon indicates that IntelliJ I
 
 ![Intentions](screenshots/JetBrains/intentions_text.gif)
 
-1. Click the light bulb icon or press <alt+enter> to open the list of suggestions.
+1. Click the light bulb icon or press \<alt+enter\> to open the list of suggestions.
 2. Use arrow keys to navigate the list.
-3. Press <enter> or double-click a list item to select that action.
+3. Press \<enter\> or double-click a list item to select that action.
