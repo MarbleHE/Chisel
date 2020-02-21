@@ -48,9 +48,9 @@ In the navigation bar you should see five directories.
 ## Matrix Language 
 - You can define matrices by typing "Matrix", which should then autofill to Matrix\<\<type>> \<no name>.
 - You can then initialize it by typing "={", which should give you a square that you can fill with your matrix. 
-- Pressing\<enter> at the end of the last row inserts a new row.
-- Enter your values int a row, pressing \<enter> after each value.
-  ![Chisel new matrix](screenshots/Tutorial/06_newMatrix.gif)
+- First, press \<enter> for each row you need in your matrix.
+- Going back to each row, enter your values into a row, pressing \<enter> after each value.
+  ![Chisel new matrix](screenshots/Tutorial/06_Matrix.gif)
 - You can access a cell of the matrix by using methods Matrix.get(\<i>,\<j>) and Matrix.set(\<i>,\<j>,\<value>).
 - The following operations are available for Matrices: 
   - Matrix.mult(Matrix)
