@@ -66,6 +66,5 @@ Please reference [this tutorial](https://github.com/MarbleHE/Chisel/blob/master/
 
 ## Known Bugs
 - Please ignore the error “The reference … is out of search scope” on a party or variable reference.
-- Please ignore “Error: type Matrix.runtime.Matrix\<...> is not a subtype of matrix\<...>” on assigning a matrix.
 - The automatic “auto” fill in executing parties might show up again after deleting it. Just delete it again, then it should stay deleted.
 - Please ignore the "(generation required)" in the navigation bar.
