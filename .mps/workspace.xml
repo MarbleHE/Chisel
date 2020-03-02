@@ -8,109 +8,19 @@
   <component name="BreakpointManager">
     <breakpoint kind="JAVA_LINE_BREAKPOINT">
       <JavaBreakpointInfo>
-        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/8440515868983413839" />
+        <option name="location" value="r:de7ac0f2-ba6a-46bf-8db2-ace9e0a97c24(ChiselLanguage.constraints)/9136968075516707080" />
         <option name="mySuspendPolicy" value="2" />
         <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579683789245" />
+        <option name="myCreationTime" value="1575542940383" />
         <option name="myIsEnabled" value="true" />
       </JavaBreakpointInfo>
     </breakpoint>
     <breakpoint kind="JAVA_LINE_BREAKPOINT">
       <JavaBreakpointInfo>
-        <option name="location" value="r:a58fce87-9f6f-438b-a029-cf87179696a6(ChiselLang.constraints)/7745834581877954523" />
+        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/7745834581890458556" />
         <option name="mySuspendPolicy" value="2" />
         <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1578917377443" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:a58fce87-9f6f-438b-a029-cf87179696a6(ChiselLang.constraints)/7745834581878874224" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1578917118750" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/8440515868987333262" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579684736539" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:a58fce87-9f6f-438b-a029-cf87179696a6(ChiselLang.constraints)/7745834581878144023" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1578917553196" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1397747368865845238" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1581004902562" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/7745834581904260701" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579772014664" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1809470990891353478" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1581000468626" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/7745834581907569354" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579772473773" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/6219660258344759855" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579005458856" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:42be6454-5248-420f-99c3-524e66df6cb5(ChiselLang.behavior)/7745834581904358471" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579772232710" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)/2432385533253965715" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579772400480" />
+        <option name="myCreationTime" value="1579005442698" />
         <option name="myIsEnabled" value="true" />
       </JavaBreakpointInfo>
     </breakpoint>
@@ -125,10 +35,46 @@
     </breakpoint>
     <breakpoint kind="JAVA_LINE_BREAKPOINT">
       <JavaBreakpointInfo>
-        <option name="location" value="r:de7ac0f2-ba6a-46bf-8db2-ace9e0a97c24(ChiselLanguage.constraints)/9136968075516707080" />
+        <option name="location" value="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)/1213877501651" />
         <option name="mySuspendPolicy" value="2" />
         <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1575542940383" />
+        <option name="myCreationTime" value="1579772755844" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)/2432385533253965715" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1579772400480" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1397747368865845238" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1581004902562" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:a58fce87-9f6f-438b-a029-cf87179696a6(ChiselLang.constraints)/7745834581878874224" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1578917118750" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/6219660258344759855" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1579005458856" />
         <option name="myIsEnabled" value="true" />
       </JavaBreakpointInfo>
     </breakpoint>
@@ -143,25 +89,58 @@
     </breakpoint>
     <breakpoint kind="JAVA_LINE_BREAKPOINT">
       <JavaBreakpointInfo>
-        <option name="location" value="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)/1213877501651" />
+        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/8440515868983413839" />
         <option name="mySuspendPolicy" value="2" />
         <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579772755844" />
+        <option name="myCreationTime" value="1579683789245" />
         <option name="myIsEnabled" value="true" />
       </JavaBreakpointInfo>
     </breakpoint>
     <breakpoint kind="JAVA_LINE_BREAKPOINT">
       <JavaBreakpointInfo>
-        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/7745834581890458556" />
+        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/8440515868987333262" />
         <option name="mySuspendPolicy" value="2" />
         <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579005442698" />
+        <option name="myCreationTime" value="1579684736539" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:a58fce87-9f6f-438b-a029-cf87179696a6(ChiselLang.constraints)/7745834581877954523" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1578917377443" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:a58fce87-9f6f-438b-a029-cf87179696a6(ChiselLang.constraints)/7745834581878144023" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1578917553196" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:42be6454-5248-420f-99c3-524e66df6cb5(ChiselLang.behavior)/7745834581904358471" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1579772232710" />
         <option name="myIsEnabled" value="true" />
       </JavaBreakpointInfo>
     </breakpoint>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="052123af-b873-42d0-b218-c0648d2d64a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/ChiselLang.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/ChiselLang.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.actions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.actions.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.intentions.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.typesystem.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -176,7 +155,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="b11feacc-b178-41a4-9c2c-79042c7965f6/r:219e141b-3ed5-412e-bc11-fe67c65a3e7d(TempModuleb11feacc-b178-41a4-9c2c-79042c7965f6/ConsoleModel_358271197862718)">
+            <model ref="ef19ece0-1648-4854-a0fe-efa0fca564dd/r:7e90adeb-7967-46d5-a51e-d7f3249c94f4(TempModuleef19ece0-1648-4854-a0fe-efa0fca564dd/ConsoleModel_511656192744)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -196,11 +175,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="n6KDB613PC">
-                <node concept="3balQm" id="n6KDB613PD" role="aymYE" />
-                <node concept="2Clz$F" id="n6KDB613PE" role="aymYO" />
-                <node concept="2_V_lH" id="n6KDB613PF" role="1PhJh3">
-                  <ref role="2_V_lI" node="n6KDB613PE" resolve="CommandHolder" />
+              <node concept="aymSD" id="3Moy215HtLO">
+                <node concept="3balQm" id="3Moy215HtLP" role="aymYE" />
+                <node concept="2Clz$F" id="3Moy215HtLQ" role="aymYO" />
+                <node concept="2_V_lH" id="3Moy215HtLR" role="1PhJh3">
+                  <ref role="2_V_lI" node="3Moy215HtLQ" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -332,9 +311,72 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Annotations" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure) in IdeaFile[jar:///Applications/MPS 2019.2.app/Contents/languages/baseLanguage/jetbrains.mps.baseLanguage-src.jar!/module/languageModels/structure.mpb]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generics" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -366,8 +408,54 @@
               <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Party" />
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure) in IdeaFile[jar:///Applications/MPS 2019.2.app/Contents/languages/baseLanguage/jetbrains.mps.baseLanguage-src.jar!/module/languageModels/structure.mpb]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,11 +469,25 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
+              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Party" />
+              <option name="myItemId" value="MyStaticFieldDeclaration" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c920869d-c725-452f-883d-9b09f56b97bb(ChiselLang.intentions) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.intentions.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -400,6 +502,76 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure) in IdeaFile[jar:///Applications/MPS 2019.2.app/Contents/languages/languageDesign/jetbrains.mps.lang.core-src.jar!/module/languageModels/structure.mpb]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -412,28 +584,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ChiselLang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:feffba15-9d09-4930-aba2-b4e39cd2b67a(ChiselLang.sandbox) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="985938bc-8b6a-4240-9621-2d020e0bb6e3(Matrix)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:81153835-74fd-4d0a-98ca-6a34d7cd97b5(Matrix.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/Matrix/models/Matrix.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Matrix" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,7 +607,29 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
+              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Party" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c920869d-c725-452f-883d-9b09f56b97bb(ChiselLang.intentions) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.intentions.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8440515868981718120" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,104 +646,8 @@
               <option name="myItemId" value="ChiselLang" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="93166633-f1f2-4524-828b-4a3217f78bab" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="985938bc-8b6a-4240-9621-2d020e0bb6e3(Matrix)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="985938bc-8b6a-4240-9621-2d020e0bb6e3(Matrix)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:81153835-74fd-4d0a-98ca-6a34d7cd97b5(Matrix.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/Matrix/models/Matrix.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="93166633-f1f2-4524-828b-4a3217f78bab" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Matrix" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:243553c1-1f79-4067-a13d-958ce2d79115(Matrix.runtime) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/solutions/Matrix.runtime/models/Matrix.runtime.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="93166633-f1f2-4524-828b-4a3217f78bab" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Matrix" />
+              <option name="myItemId" value="r:feffba15-9d09-4930-aba2-b4e39cd2b67a(ChiselLang.sandbox) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -584,9 +660,22 @@
               <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChiselLang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:feffba15-9d09-4930-aba2-b4e39cd2b67a(ChiselLang.sandbox) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8440515869008182686" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="FileSystem">
         <subPane>
           <expand>
@@ -610,7 +699,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -691,7 +780,7 @@
         <query>
           <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.ProjectScope" />
           <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
-            <node ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1070462154015" title="StaticFieldDeclaration" />
+            <node ref="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure)/2718165156770861341" title="MyStaticFieldDeclaration" />
           </holder>
         </query>
         <usage_view>
@@ -707,17 +796,17 @@
                 <child caption="Searched nodes" excluded="false" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
                   <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
                   <role name="category:Category" />
-                  <child caption="jetbrains.mps.baseLanguage" excluded="false" isresult="false" results_section="false" module_ref="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)">
+                  <child caption="ChiselLang" excluded="false" isresult="false" results_section="false" module_ref="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)">
                     <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
                     <role name="module" />
-                    <child caption="jetbrains.mps.baseLanguage.structure" excluded="false" isresult="false" results_section="false">
+                    <child caption="ChiselLang.structure" excluded="false" isresult="false" results_section="false">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="StaticFieldDeclaration" info="" excluded="false" isresult="true" results_section="false" nodePtr="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1070462154015" isRoot="true">
+                      <child caption="MyStaticFieldDeclaration" info="" excluded="false" isresult="true" results_section="false" nodePtr="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure)/2718165156770861341" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="target" />
                       </child>
-                      <model uid="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+                      <model uid="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure)" />
                     </child>
                   </child>
                 </child>
@@ -731,39 +820,83 @@
                   <child caption="ChiselLang" excluded="false" isresult="false" results_section="true" module_ref="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)">
                     <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
                     <role name="module" />
-                    <child caption="ChiselLang.structure" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="MyStaticFieldDeclaration" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure)/2718165156770861341" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="target" />
-                      </child>
-                      <model uid="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure)" />
-                    </child>
                     <child caption="ChiselLang.editor" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="StaticFieldDeclaration_noVisibility_Editor" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor)/1397747368865177104" isRoot="true">
+                      <child caption="DeleteSecret" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor)/2718165156770878412" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="target" />
+                      </child>
+                      <child caption="MyStaticFieldDeclaration_Editor" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor)/2718165156770861353" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="target" />
+                      </child>
+                      <child caption="MyStaticFieldDeclaration_TransformationMenu" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor)/2718165156770885888" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="target" />
                       </child>
                       <model uid="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor)" />
                     </child>
+                    <child caption="ChiselLang.intentions" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="Toggle_isSecret" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:c920869d-c725-452f-883d-9b09f56b97bb(ChiselLang.intentions)/7745834581903585456" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="target" />
+                      </child>
+                      <model uid="r:c920869d-c725-452f-883d-9b09f56b97bb(ChiselLang.intentions)" />
+                    </child>
                     <child caption="ChiselLang.typesystem" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="checkDeclarations_PartyDeclaration" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/7745834581880015389" isRoot="true">
+                      <child caption="checkCrypto_Computation" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/8440515868991634084" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="node&lt;StaticFieldDeclaration&gt;" info="(role: classType in: instanceof)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1397747368857009364">
+                        <child caption="MyStaticFieldDeclaration" info="(role: conceptArgument in: as)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156776572960">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="checkDivision_Computation" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1873334894514809993" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="MyStaticFieldDeclaration" info="(role: conceptArgument in: as)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1873334894514856503">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                        <child caption="leftDecl" info="(role: localVariableDeclaration in: &lt;type&gt; &lt;var&gt;;)" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1873334894514860288">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="node&lt;MyStaticFieldDeclaration&gt;" info="(role: type in: leftDecl)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1873334894514860284">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                          <child caption="MyStaticFieldDeclaration" info="(role: conceptArgument in: as)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1873334894514860312">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                        </child>
+                        <child caption="MyStaticFieldDeclaration" info="(role: conceptArgument in: as)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1873334894514866360">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                        <child caption="rightDecl" info="(role: localVariableDeclaration in: &lt;type&gt; &lt;var&gt;;)" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1873334894514866366">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="node&lt;MyStaticFieldDeclaration&gt;" info="(role: type in: rightDecl)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1873334894514866367">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                          <child caption="MyStaticFieldDeclaration" info="(role: conceptArgument in: as)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1873334894514866369">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
                         </child>
                       </child>
                       <child caption="checkMyStatic_StaticFieldDeclaration" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156770941208" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="staticFieldDeclaration" info="(role: applicableNode in: checkMyStatic_StaticFieldDeclaration)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156770941213">
+                        <child caption="MyStaticFieldDeclaration" info="(role: conceptArgument in: as)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156772466569">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="target" />
                         </child>
@@ -771,10 +904,30 @@
                       <child caption="makeFieldMyStatic" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156770942416" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="fieldDecl" info="(role: quickFixArgument in: makeFieldMyStatic)" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156770942507">
+                        <child caption="field" info="(role: localVariableDeclaration in: &lt;type&gt; &lt;var&gt;;)" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156770942422">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="root to target" />
-                          <child caption="node&lt;StaticFieldDeclaration&gt;" info="(role: argumentType in: fieldDecl)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156770942508">
+                          <child caption="new initialized next-sibling" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156770942424">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                          <child caption="node&lt;MyStaticFieldDeclaration&gt;" info="(role: type in: field)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/2718165156770942426">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                        </child>
+                      </child>
+                      <child caption="makeFieldStatic" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1397747368855022458" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="field" info="(role: localVariableDeclaration in: &lt;type&gt; &lt;var&gt;;)" excluded="false" isresult="false" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1809470990891353406">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="new initialized next-sibling" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1809470990898919461">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                          <child caption="node&lt;MyStaticFieldDeclaration&gt;" info="(role: type in: field)" excluded="false" isresult="true" results_section="true" nodePtr="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1809470990891353407">
                             <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                             <role name="target" />
                           </child>

@@ -58,6 +58,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -73,11 +74,13 @@
     <language id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions">
       <concept id="1192794744107" name="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" flags="ig" index="2S6QgY" />
       <concept id="1192794782375" name="jetbrains.mps.lang.intentions.structure.DescriptionBlock" flags="in" index="2S6ZIM" />
+      <concept id="1192795771125" name="jetbrains.mps.lang.intentions.structure.IsApplicableBlock" flags="in" index="2SaL7w" />
       <concept id="1192795911897" name="jetbrains.mps.lang.intentions.structure.ExecuteBlock" flags="in" index="2Sbjvc" />
       <concept id="1192796902958" name="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node" flags="nn" index="2Sf5sV" />
       <concept id="2522969319638091381" name="jetbrains.mps.lang.intentions.structure.BaseIntentionDeclaration" flags="ig" index="2ZfUlf">
         <reference id="2522969319638198290" name="forConcept" index="2ZfgGC" />
         <child id="2522969319638198291" name="executeFunction" index="2ZfgGD" />
+        <child id="2522969319638093995" name="isApplicableFunction" index="2ZfVeh" />
         <child id="2522969319638093993" name="descriptionFunction" index="2ZfVej" />
       </concept>
     </language>
@@ -265,6 +268,13 @@
         </node>
       </node>
     </node>
+    <node concept="2SaL7w" id="3Moy215N1wq" role="2ZfVeh">
+      <node concept="3clFbS" id="3Moy215N1wr" role="2VODD2">
+        <node concept="3clFbF" id="3Moy215N1zg" role="3cqZAp">
+          <node concept="3clFbT" id="3Moy215N1zf" role="3clFbG" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="2S6QgY" id="7kyJ7qbGYLC">
     <property role="TrG5h" value="Toggle_isDecrypted" />
@@ -372,6 +382,13 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="3Moy215N1e_" role="2ZfVeh">
+      <node concept="3clFbS" id="3Moy215N1eA" role="2VODD2">
+        <node concept="3clFbF" id="3Moy215N1kY" role="3cqZAp">
+          <node concept="3clFbT" id="3Moy215N1kX" role="3clFbG" />
         </node>
       </node>
     </node>
