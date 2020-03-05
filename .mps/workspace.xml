@@ -8,33 +8,6 @@
   <component name="BreakpointManager">
     <breakpoint kind="JAVA_LINE_BREAKPOINT">
       <JavaBreakpointInfo>
-        <option name="location" value="r:de7ac0f2-ba6a-46bf-8db2-ace9e0a97c24(ChiselLanguage.constraints)/9136968075516707080" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1575542940383" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/7745834581890458556" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579005442698" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/8440515868983411172" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579683676951" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
         <option name="location" value="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)/1213877501651" />
         <option name="mySuspendPolicy" value="2" />
         <option name="myIsLogMessage" value="false" />
@@ -44,46 +17,19 @@
     </breakpoint>
     <breakpoint kind="JAVA_LINE_BREAKPOINT">
       <JavaBreakpointInfo>
-        <option name="location" value="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)/2432385533253965715" />
+        <option name="location" value="r:a58fce87-9f6f-438b-a029-cf87179696a6(ChiselLang.constraints)/7745834581877954523" />
         <option name="mySuspendPolicy" value="2" />
         <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579772400480" />
+        <option name="myCreationTime" value="1578917377443" />
         <option name="myIsEnabled" value="true" />
       </JavaBreakpointInfo>
     </breakpoint>
     <breakpoint kind="JAVA_LINE_BREAKPOINT">
       <JavaBreakpointInfo>
-        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1397747368865845238" />
+        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/7745834581890458556" />
         <option name="mySuspendPolicy" value="2" />
         <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1581004902562" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:a58fce87-9f6f-438b-a029-cf87179696a6(ChiselLang.constraints)/7745834581878874224" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1578917118750" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/6219660258344759855" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579005458856" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/8440515868986017249" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1579683836456" />
+        <option name="myCreationTime" value="1579005442698" />
         <option name="myIsEnabled" value="true" />
       </JavaBreakpointInfo>
     </breakpoint>
@@ -107,10 +53,10 @@
     </breakpoint>
     <breakpoint kind="JAVA_LINE_BREAKPOINT">
       <JavaBreakpointInfo>
-        <option name="location" value="r:a58fce87-9f6f-438b-a029-cf87179696a6(ChiselLang.constraints)/7745834581877954523" />
+        <option name="location" value="r:a58fce87-9f6f-438b-a029-cf87179696a6(ChiselLang.constraints)/7745834581878874224" />
         <option name="mySuspendPolicy" value="2" />
         <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1578917377443" />
+        <option name="myCreationTime" value="1578917118750" />
         <option name="myIsEnabled" value="true" />
       </JavaBreakpointInfo>
     </breakpoint>
@@ -125,6 +71,42 @@
     </breakpoint>
     <breakpoint kind="JAVA_LINE_BREAKPOINT">
       <JavaBreakpointInfo>
+        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/6219660258344759855" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1579005458856" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/8440515868983411172" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1579683676951" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)/2432385533253965715" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1579772400480" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/8440515868986017249" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1579683836456" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
         <option name="location" value="r:42be6454-5248-420f-99c3-524e66df6cb5(ChiselLang.behavior)/7745834581904358471" />
         <option name="mySuspendPolicy" value="2" />
         <option name="myIsLogMessage" value="false" />
@@ -132,14 +114,30 @@
         <option name="myIsEnabled" value="true" />
       </JavaBreakpointInfo>
     </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem)/1397747368865845238" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1581004902562" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:de7ac0f2-ba6a-46bf-8db2-ace9e0a97c24(ChiselLanguage.constraints)/9136968075516707080" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1575542940383" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="052123af-b873-42d0-b218-c0648d2d64a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/ChiselLang.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/ChiselLang.mpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.actions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.actions.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.intentions.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.structure.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLang/models/ChiselLang.typesystem.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps" afterDir="false" />
     </list>
@@ -155,7 +153,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="ef19ece0-1648-4854-a0fe-efa0fca564dd/r:7e90adeb-7967-46d5-a51e-d7f3249c94f4(TempModuleef19ece0-1648-4854-a0fe-efa0fca564dd/ConsoleModel_511656192744)">
+            <model ref="fbf31655-cb78-4003-a80c-ca6e98d19b32/r:ea8067aa-dcb5-4f33-beaa-a7cb687ab8ed(TempModulefbf31655-cb78-4003-a80c-ca6e98d19b32/ConsoleModel_59373862189734)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -175,11 +173,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="3Moy215HtLO">
-                <node concept="3balQm" id="3Moy215HtLP" role="aymYE" />
-                <node concept="2Clz$F" id="3Moy215HtLQ" role="aymYO" />
-                <node concept="2_V_lH" id="3Moy215HtLR" role="1PhJh3">
-                  <ref role="2_V_lI" node="3Moy215HtLQ" resolve="CommandHolder" />
+              <node concept="aymSD" id="1aBHWS_Vavt">
+                <node concept="3balQm" id="1aBHWS_Vavu" role="aymYE" />
+                <node concept="2Clz$F" id="1aBHWS_Vavv" role="aymYO" />
+                <node concept="2_V_lH" id="1aBHWS_Vavw" role="1PhJh3">
+                  <ref role="2_V_lI" node="1aBHWS_Vavv" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -311,310 +309,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Annotations" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure) in IdeaFile[jar:///Applications/MPS 2019.2.app/Contents/languages/baseLanguage/jetbrains.mps.baseLanguage-src.jar!/module/languageModels/structure.mpb]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generics" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Computation" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure) in IdeaFile[jar:///Applications/MPS 2019.2.app/Contents/languages/baseLanguage/jetbrains.mps.baseLanguage-src.jar!/module/languageModels/structure.mpb]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyStaticFieldDeclaration" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:c920869d-c725-452f-883d-9b09f56b97bb(ChiselLang.intentions) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.intentions.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure) in IdeaFile[jar:///Applications/MPS 2019.2.app/Contents/languages/languageDesign/jetbrains.mps.lang.core-src.jar!/module/languageModels/structure.mpb]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChiselLang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:57687ca1-ebcb-471b-9f7e-21bb7999b7b4(ChiselLang.structure) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Party" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -639,6 +336,62 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Party" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheckStatic" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -648,6 +401,114 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:feffba15-9d09-4930-aba2-b4e39cd2b67a(ChiselLang.sandbox) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLanguage/sandbox/models/ChiselLang.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChiselLang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c920869d-c725-452f-883d-9b09f56b97bb(ChiselLang.intentions) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.intentions.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Computation" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c920869d-c725-452f-883d-9b09f56b97bb(ChiselLang.intentions) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.intentions.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c49ab858-5670-4333-a7fe-d19c11530f6c(ChiselLang.editor) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:edfe070b-0d36-48a2-b296-274d288122b9(ChiselLang.typesystem) in IdeaFile[file:///Users/themessenger/ETH/Master/MasterThesis/Chisel/languages/ChiselLang/models/ChiselLang.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheckStatic" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QuickFixes" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d0930ac7-4b6b-4d06-bc44-213b52016f72" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -675,7 +536,6 @@
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="Favorites" />
       <pane id="FileSystem">
         <subPane>
           <expand>

@@ -231,20 +231,6 @@
     <property role="TrG5h" value="Tester" />
     <node concept="fvRDn" id="7kyJ7qfcbFO" role="fvpt9">
       <property role="TrG5h" value="D_Party" />
-      <node concept="B$KRi" id="7qGbpcrasev" role="jymVt">
-        <property role="TrG5h" value="j" />
-        <property role="B$KRC" value="true" />
-        <node concept="10Oyi0" id="7qGbpcrase0" role="1tU5fm" />
-        <node concept="3Tm1VV" id="7qGbpcrasey" role="1B3o_S" />
-      </node>
-      <node concept="B$KRi" id="2mSRcW3bIIw" role="jymVt">
-        <property role="TrG5h" value="i" />
-        <node concept="10Oyi0" id="2mSRcW3bIHt" role="1tU5fm" />
-        <node concept="3Tm1VV" id="2mSRcW3bIIz" role="1B3o_S" />
-        <node concept="3cmrfG" id="2mSRcW3bIHv" role="33vP2m">
-          <property role="3cmrfH" value="1" />
-        </node>
-      </node>
       <node concept="3Tm1VV" id="7kyJ7qfcbFQ" role="1B3o_S" />
       <node concept="37vLTw" id="1BZr2_53IqD" role="XTmDk">
         <ref role="3cqZAo" node="1BZr2_4ZYYR" resolve="i" />
