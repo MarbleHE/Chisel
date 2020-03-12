@@ -15,8 +15,10 @@
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
+      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
@@ -66,8 +68,9 @@
     <ref role="1XX52x" to="4vy6:6HYISdm4R44" resolve="MatrixRowDeclaration" />
     <node concept="3EZMnI" id="6HYISdm57nV" role="2wV5jI">
       <node concept="3F2HdR" id="6HYISdm57o2" role="3EZMnx">
+        <property role="2czwfO" value="," />
         <ref role="1NtTu8" to="4vy6:6HYISdm4R4a" resolve="cells" />
-        <node concept="l2Vlx" id="6HYISdm57o4" role="2czzBx" />
+        <node concept="2iRfu4" id="1aBHWSAxHgQ" role="2czzBx" />
       </node>
       <node concept="l2Vlx" id="6HYISdm57nY" role="2iSdaV" />
     </node>

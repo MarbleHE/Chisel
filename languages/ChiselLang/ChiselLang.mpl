@@ -58,6 +58,7 @@
     <dependency reexport="false">93166633-f1f2-4524-828b-4a3217f78bab(Matrix.runtime)</dependency>
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
     <dependency reexport="false">985938bc-8b6a-4240-9621-2d020e0bb6e3(Matrix)</dependency>
+    <dependency reexport="false">7a03b507-1420-45c7-889b-008d17ae6c16(ChiselLang)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />

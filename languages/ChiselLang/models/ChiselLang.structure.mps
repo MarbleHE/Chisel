@@ -159,12 +159,6 @@
       <ref role="20lvS9" to="tpee:fz7vLUo" resolve="VariableReference" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7Vd20Sh96Xe">
-    <property role="EcuMT" value="9136968075514769230" />
-    <property role="3GE5qa" value="Party" />
-    <property role="TrG5h" value="PartyType" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
-  </node>
   <node concept="1TIwiD" id="7MGcVSewxWA">
     <property role="EcuMT" value="8983612248077508390" />
     <property role="TrG5h" value="FileDeclaration" />
